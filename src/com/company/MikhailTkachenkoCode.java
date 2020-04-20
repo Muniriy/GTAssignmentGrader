@@ -3,7 +3,8 @@ package com.company;
 import java.util.*;
 import java.util.stream.Collectors;
 
-public class MikhailTkachenkoCode implements Player {
+class MikhailTkachenkoCode implements Player {
+
 
     Map<Double, ArrayList<Integer>> invertedScores = new TreeMap<>();       // List of scores. Stored as a dictionary with score as key and options as values
     Map<Integer, Long> opponentChoiceCounts = new HashMap<>();              // Choices of opponent statistics
@@ -12,6 +13,11 @@ public class MikhailTkachenkoCode implements Player {
     public void reset() {
         invertedScores = new TreeMap<>();
         opponentChoiceCounts = new TreeMap<>();
+    }
+
+    @Override
+    public String getEmail() {
+        return "m.tkachenko@innopolis.ru";
     }
 
     @Override
@@ -114,10 +120,4 @@ public class MikhailTkachenkoCode implements Player {
     double calculateScore(int x) {
         return (10 * Math.exp(x)) / (1 + Math.exp(x)) - 5;
     }
-
-    @Override
-    public String getEmail() {
-        return "m.tkachenko@innopolis.ru";
-    }
 }
-

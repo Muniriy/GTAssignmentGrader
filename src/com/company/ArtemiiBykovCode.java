@@ -6,9 +6,15 @@ import java.util.Random;
 
 import static java.lang.Math.exp;
 
-
+// NarutoUzumaki in report
 public class ArtemiiBykovCode implements Player {
+
     private int numberOfRounds = 0;
+
+    @Override
+    public String getEmail() {
+        return "ar.bykov@innopolis.ru";
+    }
 
     /**
      * Reset player state
@@ -45,11 +51,6 @@ public class ArtemiiBykovCode implements Player {
         }
     }
 
-    @Override
-    public String getEmail() {
-        return "a.bykov@innopolis.ru";
-    }
-
     /**
      * Method calculates sigmoid value
      * @param x sigmoid argument
@@ -75,4 +76,3 @@ public class ArtemiiBykovCode implements Player {
         else return x2;
     }
 }
-

@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="762ea13f-9121-4618-91c7-76e54aff60a1" name="Default Changelist" comment="" />
+    <list default="true" id="762ea13f-9121-4618-91c7-76e54aff60a1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grades_old.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grades.csv" beforeDir="false" afterPath="$PROJECT_DIR$/grades.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/ArtemiiBykovCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/ArtemiiBykovCode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/MikhailTkachenkoCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/MikhailTkachenkoCode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/TemurKholmatovCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/TemurKholmatovCode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/Tournament.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/Tournament.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/ArtemiiBykovCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/ArtemiiBykovCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/MikhailTkachenkoCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/MikhailTkachenkoCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/TemurKholmatovCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/TemurKholmatovCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Tournament.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Tournament.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,14 +30,20 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ZegXOlGjmIihRpWouA5qJUFUpW" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="Applet">
@@ -95,30 +116,34 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="320" y="115" key="#Inspections/0.0.1440.900@0.0.1440.900" timestamp="1586793476449" />
-    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586771716633">
+    <state x="320" y="98" key="#Plugins" timestamp="1587058000662">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1586771716633" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1586942328547">
+    <state x="320" y="98" key="#Plugins/0.0.1440.900@0.0.1440.900" timestamp="1587058000662" />
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587058103429">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1586942328547" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.23.1440.814@0.23.1440.814" timestamp="1586869924889" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1586942328546">
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1587058103429" />
+    <state width="1398" height="772" key="GridCell.Tab.0.bottom" timestamp="1587381872625">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1586942328546" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.23.1440.814@0.23.1440.814" timestamp="1586869924883" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1586942328545">
+    <state width="1398" height="772" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587381872625" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.23.1440.814@0.23.1440.814" timestamp="1587130643686" />
+    <state width="1398" height="772" key="GridCell.Tab.0.center" timestamp="1587381872623">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1586942328545" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.23.1440.814@0.23.1440.814" timestamp="1586869924882" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1586942328547">
+    <state width="1398" height="772" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1587381872623" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.23.1440.814@0.23.1440.814" timestamp="1587130643682" />
+    <state width="1398" height="772" key="GridCell.Tab.0.left" timestamp="1587381872622">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1586942328547" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.23.1440.814@0.23.1440.814" timestamp="1586869924887" />
+    <state width="1398" height="772" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1587381872622" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.23.1440.814@0.23.1440.814" timestamp="1587130643681" />
+    <state width="1398" height="772" key="GridCell.Tab.0.right" timestamp="1587381872624">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="772" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1587381872624" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.23.1440.814@0.23.1440.814" timestamp="1587130643683" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1586876842648">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -135,19 +160,21 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1586876842647" />
-    <state x="229" y="69" key="SettingsEditor" timestamp="1586261608992">
-      <screen x="0" y="23" width="1440" height="816" />
-    </state>
-    <state x="229" y="69" key="SettingsEditor/0.23.1440.816@0.23.1440.816" timestamp="1586261608992" />
-    <state x="413" y="262" key="com.intellij.ide.util.TipDialog" timestamp="1586939677421">
+    <state x="229" y="23" width="1024" height="816" key="SettingsEditor" timestamp="1587066792860">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="413" y="262" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1586939677421" />
+    <state x="229" y="23" width="1024" height="816" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1587066792860" />
+    <state x="229" y="69" key="SettingsEditor/0.23.1440.816@0.23.1440.816" timestamp="1586261608992" />
+    <state x="413" y="262" key="com.intellij.ide.util.TipDialog" timestamp="1587046669188">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="413" y="262" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1587046669188" />
     <state x="413" y="262" key="com.intellij.ide.util.TipDialog/0.23.1440.814@0.23.1440.814" timestamp="1586342978942" />
     <state x="413" y="263" key="com.intellij.ide.util.TipDialog/0.23.1440.816@0.23.1440.816" timestamp="1586261550263" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1586768123286">
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1587063544145">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1586768123286" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1587063544145" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.23.1440.816@0.23.1440.816" timestamp="1587063534436" />
   </component>
 </project>

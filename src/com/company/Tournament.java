@@ -1,17 +1,8 @@
 package com.company;
 
-import com.sun.javafx.scene.traversal.Direction;
-
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.lang.reflect.Constructor;
-import java.lang.reflect.InvocationTargetException;
-import java.nio.file.Paths;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
 
 public class Tournament {
 
@@ -208,27 +199,698 @@ public class Tournament {
         String[] emails = new String[classes.length];
         Player[] player = new Player[classes.length];
 
-        // Copy generated code here
+//        {
+//            AydarGabdrahmanovCode objAydarGabdrahmanovCode = new AydarGabdrahmanovCode();
+//            player[0] = objAydarGabdrahmanovCode;
+//
+//            EgorKlementevCode objEgorKlementevCode = new EgorKlementevCode();
+//            player[1] = objEgorKlementevCode;
+//
+//            ElviraSalikhovaCode objElviraSalikhovaCode = new ElviraSalikhovaCode();
+//            player[2] = objElviraSalikhovaCode;
+//
+//            RimRakhimovCode objRimRakhimovCode = new RimRakhimovCode();
+//            player[3] = objRimRakhimovCode;
+//
+//            MikhailTkachenkoCode objMikhailTkachenkoCode = new MikhailTkachenkoCode();
+//            player[4] = objMikhailTkachenkoCode;
+//
+//            RobertoChavezCode objRobertoChavezCode = new RobertoChavezCode();
+//            player[5] = objRobertoChavezCode;
+//
+//            MaximSaloCode objMaximSaloCode = new MaximSaloCode();
+//            player[6] = objMaximSaloCode;
+//
+//            IlyaAlonovCode objIlyaAlonovCode = new IlyaAlonovCode();
+//            player[7] = objIlyaAlonovCode;
+//
+//            EgorBaklanovCode objEgorBaklanovCode = new EgorBaklanovCode();
+//            player[8] = objEgorBaklanovCode;
+//
+//            AnastassiyaBoikoCode objAnastassiyaBoikoCode = new AnastassiyaBoikoCode();
+//            player[9] = objAnastassiyaBoikoCode;
+//
+//            TimerlanNasyrovCode objTimerlanNasyrovCode = new TimerlanNasyrovCode();
+//            player[10] = objTimerlanNasyrovCode;
+//
+//            VadimSolovovCode objVadimSolovovCode = new VadimSolovovCode();
+//            player[11] = objVadimSolovovCode;
+//
+//            ArtemKozlovCode objArtemKozlovCode = new ArtemKozlovCode();
+//            player[12] = objArtemKozlovCode;
+//
+//            NiyazFahretdinovCode objNiyazFahretdinovCode = new NiyazFahretdinovCode();
+//            player[13] = objNiyazFahretdinovCode;
+//
+//            VladislavBakhteevCode objVladislavBakhteevCode = new VladislavBakhteevCode();
+//            player[14] = objVladislavBakhteevCode;
+//
+//            RishatMaksudovCode objRishatMaksudovCode = new RishatMaksudovCode();
+//            player[15] = objRishatMaksudovCode;
+//
+//            OydinoyZufarovaCode objOydinoyZufarovaCode = new OydinoyZufarovaCode();
+//            player[16] = objOydinoyZufarovaCode;
+//
+//            OlegAndriyanchenkoCode objOlegAndriyanchenkoCode = new OlegAndriyanchenkoCode();
+//            player[17] = objOlegAndriyanchenkoCode;
+//
+//            KamilyaTimchenkoCode objKamilyaTimchenkoCode = new KamilyaTimchenkoCode();
+//            player[18] = objKamilyaTimchenkoCode;
+//
+//            AmirSubaevCode objAmirSubaevCode = new AmirSubaevCode();
+//            player[19] = objAmirSubaevCode;
+//
+//            NikitaNigmatullinCode objNikitaNigmatullinCode = new NikitaNigmatullinCode();
+//            player[20] = objNikitaNigmatullinCode;
+//
+//            PeterZakharkinCode objPeterZakharkinCode = new PeterZakharkinCode();
+//            player[21] = objPeterZakharkinCode;
+//
+//            NikolaNovarlicCode objNikolaNovarlicCode = new NikolaNovarlicCode();
+//            player[22] = objNikolaNovarlicCode;
+//
+//            FaritGaleevCode objFaritGaleevCode = new FaritGaleevCode();
+//            player[23] = objFaritGaleevCode;
+//
+//            AlexanderGrukCode objAlexanderGrukCode = new AlexanderGrukCode();
+//            player[24] = objAlexanderGrukCode;
+//
+//            DenisLevkovetsCode objDenisLevkovetsCode = new DenisLevkovetsCode();
+//            player[25] = objDenisLevkovetsCode;
+//
+//            DanilKabirovCode objDanilKabirovCode = new DanilKabirovCode();
+//            player[26] = objDanilKabirovCode;
+//
+//            DanilaKochanCode objDanilaKochanCode = new DanilaKochanCode();
+//            player[27] = objDanilaKochanCode;
+//
+//            KamilAlimovCode objKamilAlimovCode = new KamilAlimovCode();
+//            player[28] = objKamilAlimovCode;
+//
+//            ArtemIurinCode objArtemIurinCode = new ArtemIurinCode();
+//            player[29] = objArtemIurinCode;
+//
+//            AlbertBadretdinovCode objAlbertBadretdinovCode = new AlbertBadretdinovCode();
+//            player[30] = objAlbertBadretdinovCode;
+//
+//            RuslanSabirovCode objRuslanSabirovCode = new RuslanSabirovCode();
+//            player[31] = objRuslanSabirovCode;
+//
+//            NikolaiMikriukovCode objNikolaiMikriukovCode = new NikolaiMikriukovCode();
+//            player[32] = objNikolaiMikriukovCode;
+//
+//            NikitaKostenkoCode objNikitaKostenkoCode = new NikitaKostenkoCode();
+//            player[33] = objNikitaKostenkoCode;
+//
+//            ArturRakhmatullinCode objArturRakhmatullinCode = new ArturRakhmatullinCode();
+//            player[34] = objArturRakhmatullinCode;
+//
+//            KusalKcCode objKusalKcCode = new KusalKcCode();
+//            player[35] = objKusalKcCode;
+//
+//            RamilAskarovCode objRamilAskarovCode = new RamilAskarovCode();
+//            player[36] = objRamilAskarovCode;
+//
+//            KamilSaitovCode objKamilSaitovCode = new KamilSaitovCode();
+//            player[37] = objKamilSaitovCode;
+//
+//            DmitryKonevCode objDmitryKonevCode = new DmitryKonevCode();
+//            player[38] = objDmitryKonevCode;
+//
+//            ValeriyaVertashCode objValeriyaVertashCode = new ValeriyaVertashCode();
+//            player[39] = objValeriyaVertashCode;
+//
+//            TemurKholmatovCode objTemurKholmatovCode = new TemurKholmatovCode();
+//            player[40] = objTemurKholmatovCode;
+//
+//            ArinaFedorovskayaCode objArinaFedorovskayaCode = new ArinaFedorovskayaCode();
+//            player[41] = objArinaFedorovskayaCode;
+//
+//            VladislavSavchukCode objVladislavSavchukCode = new VladislavSavchukCode();
+//            player[42] = objVladislavSavchukCode;
+//
+//            KamilAkhmetovCode objKamilAkhmetovCode = new KamilAkhmetovCode();
+//            player[43] = objKamilAkhmetovCode;
+//
+//            IliaMazanCode objIliaMazanCode = new IliaMazanCode();
+//            player[44] = objIliaMazanCode;
+//
+//            AlexeyLogachevCode objAlexeyLogachevCode = new AlexeyLogachevCode();
+//            player[45] = objAlexeyLogachevCode;
+//
+//            AntonKrylovCode objAntonKrylovCode = new AntonKrylovCode();
+//            player[46] = objAntonKrylovCode;
+//
+//            DragosStrugarCode objDragosStrugarCode = new DragosStrugarCode();
+//            player[47] = objDragosStrugarCode;
+//
+//            DmitryKochetovCode objDmitryKochetovCode = new DmitryKochetovCode();
+//            player[48] = objDmitryKochetovCode;
+//
+//            IskenderGuseynovCode objIskenderGuseynovCode = new IskenderGuseynovCode();
+//            player[49] = objIskenderGuseynovCode;
+//
+//            DariaVaskovskayaCode objDariaVaskovskayaCode = new DariaVaskovskayaCode();
+//            player[50] = objDariaVaskovskayaCode;
+//
+//            EvgenyRomanovCode objEvgenyRomanovCode = new EvgenyRomanovCode();
+//            player[51] = objEvgenyRomanovCode;
+//
+//            MaximPopovCode objMaximPopovCode = new MaximPopovCode();
+//            player[52] = objMaximPopovCode;
+//
+//            AleksandraSedovaCode objAleksandraSedovaCode = new AleksandraSedovaCode();
+//            player[53] = objAleksandraSedovaCode;
+//
+//            SalavatDinmuhametovCode objSalavatDinmuhametovCode = new SalavatDinmuhametovCode();
+//            player[54] = objSalavatDinmuhametovCode;
+//
+//            RinatMullahmetovCode objRinatMullahmetovCode = new RinatMullahmetovCode();
+//            player[55] = objRinatMullahmetovCode;
+//
+//            LeonidLyginCode objLeonidLyginCode = new LeonidLyginCode();
+//            player[56] = objLeonidLyginCode;
+//
+//            RomanBogachevCode objRomanBogachevCode = new RomanBogachevCode();
+//            player[57] = objRomanBogachevCode;
+//
+//            MikhailLyametsCode objMikhailLyametsCode = new MikhailLyametsCode();
+//            player[58] = objMikhailLyametsCode;
+//
+//            PavelNikulinCode objPavelNikulinCode = new PavelNikulinCode();
+//            player[59] = objPavelNikulinCode;
+//
+//            FarhadKhakimovCode objFarhadKhakimovCode = new FarhadKhakimovCode();
+//            player[60] = objFarhadKhakimovCode;
+//
+//            HussainKaraFallahCode objHussainKaraFallahCode = new HussainKaraFallahCode();
+//            player[61] = objHussainKaraFallahCode;
+//
+//            ArtemiiBykovCode objArtemiiBykovCode = new ArtemiiBykovCode();
+//            player[62] = objArtemiiBykovCode;
+//
+//            AlexanderAndryukovCode objAlexanderAndryukovCode = new AlexanderAndryukovCode();
+//            player[63] = objAlexanderAndryukovCode;
+//
+//            ElenaPatrushevaCode objElenaPatrushevaCode = new ElenaPatrushevaCode();
+//            player[64] = objElenaPatrushevaCode;
+//
+//            AmadeyKuspakovCode objAmadeyKuspakovCode = new AmadeyKuspakovCode();
+//            player[65] = objAmadeyKuspakovCode;
+//
+//            IlshatFatkhullinCode objIlshatFatkhullinCode = new IlshatFatkhullinCode();
+//            player[66] = objIlshatFatkhullinCode;
+//
+//            AbdurasulRakhimovCode objAbdurasulRakhimovCode = new AbdurasulRakhimovCode();
+//            player[67] = objAbdurasulRakhimovCode;
+//
+//            EvgeniyMuravevCode objEvgeniyMuravevCode = new EvgeniyMuravevCode();
+//            player[68] = objEvgeniyMuravevCode;
+//
+//            MaximBurovCode objMaximBurovCode = new MaximBurovCode();
+//            player[69] = objMaximBurovCode;
+//
+//            EnesAyanCode objEnesAyanCode = new EnesAyanCode();
+//            player[70] = objEnesAyanCode;
+//
+//            SusannaGimaevaCode objSusannaGimaevaCode = new SusannaGimaevaCode();
+//            player[71] = objSusannaGimaevaCode;
+//
+//            EvgeniaKivotovaCode objEvgeniaKivotovaCode = new EvgeniaKivotovaCode();
+//            player[72] = objEvgeniaKivotovaCode;
+//
+//            AliyaZagidullinaCode objAliyaZagidullinaCode = new AliyaZagidullinaCode();
+//            player[73] = objAliyaZagidullinaCode;
+//
+//            IlnurMamedbakovCode objIlnurMamedbakovCode = new IlnurMamedbakovCode();
+//            player[74] = objIlnurMamedbakovCode;
+//
+//            DenisPimenovCode objDenisPimenovCode = new DenisPimenovCode();
+//            player[75] = objDenisPimenovCode;
+//
+//            RinatBabichevCode objRinatBabichevCode = new RinatBabichevCode();
+//            player[76] = objRinatBabichevCode;
+//
+//            DanisBegishevCode objDanisBegishevCode = new DanisBegishevCode();
+//            player[77] = objDanisBegishevCode;
+//
+//            AlekseiZhuchkovCode objAlekseiZhuchkovCode = new AlekseiZhuchkovCode();
+//            player[78] = objAlekseiZhuchkovCode;
+//
+//            ElizavetaKolchanovaCode objElizavetaKolchanovaCode = new ElizavetaKolchanovaCode();
+//            player[79] = objElizavetaKolchanovaCode;
+//
+//            DaniilShilintsevCode objDaniilShilintsevCode = new DaniilShilintsevCode();
+//            player[80] = objDaniilShilintsevCode;
+//
+//            VyacheslavGoreevCode objVyacheslavGoreevCode = new VyacheslavGoreevCode();
+//            player[81] = objVyacheslavGoreevCode;
+//
+//            IliaProkopevCode objIliaProkopevCode = new IliaProkopevCode();
+//            player[82] = objIliaProkopevCode;
+//
+//            DanilKalininCode objDanilKalininCode = new DanilKalininCode();
+//            player[83] = objDanilKalininCode;
+//
+//            AnastasiiaGromovaCode objAnastasiiaGromovaCode = new AnastasiiaGromovaCode();
+//            player[84] = objAnastasiiaGromovaCode;
+//
+//            MariiaCharikovaCode objMariiaCharikovaCode = new MariiaCharikovaCode();
+//            player[85] = objMariiaCharikovaCode;
+//
+//            VyacheslavVasilevCode objVyacheslavVasilevCode = new VyacheslavVasilevCode();
+//            player[86] = objVyacheslavVasilevCode;
+//
+//            EugeneBondarevCode objEugeneBondarevCode = new EugeneBondarevCode();
+//            player[87] = objEugeneBondarevCode;
+//
+//            JafarBadourCode objJafarBadourCode = new JafarBadourCode();
+//            player[88] = objJafarBadourCode;
+//
+//            MikhailMoiseevCode objMikhailMoiseevCode = new MikhailMoiseevCode();
+//            player[89] = objMikhailMoiseevCode;
+//
+//            MadinaGafarovaCode objMadinaGafarovaCode = new MadinaGafarovaCode();
+//            player[90] = objMadinaGafarovaCode;
+//
+//            SemenKiselevCode objSemenKiselevCode = new SemenKiselevCode();
+//            player[91] = objSemenKiselevCode;
+//
+//            GlebPetrakovCode objGlebPetrakovCode = new GlebPetrakovCode();
+//            player[92] = objGlebPetrakovCode;
+//
+//            SyedAbbasCode objSyedAbbasCode = new SyedAbbasCode();
+//            player[93] = objSyedAbbasCode;
+//
+//            VladislavSmirnovCode objVladislavSmirnovCode = new VladislavSmirnovCode();
+//            player[94] = objVladislavSmirnovCode;
+//
+//            DanyilDvorianovCode objDanyilDvorianovCode = new DanyilDvorianovCode();
+//            player[95] = objDanyilDvorianovCode;
+//
+//            AndreyChertkovCode objAndreyChertkovCode = new AndreyChertkovCode();
+//            player[96] = objAndreyChertkovCode;
+//
+//            LenarGumerovCode objLenarGumerovCode = new LenarGumerovCode();
+//            player[97] = objLenarGumerovCode;
+//
+//            IrekNazmievCode objIrekNazmievCode = new IrekNazmievCode();
+//            player[98] = objIrekNazmievCode;
+//
+//            SvyatoslavSemenyukCode objSvyatoslavSemenyukCode = new SvyatoslavSemenyukCode();
+//            player[99] = objSvyatoslavSemenyukCode;
+//
+//            IlnurGaripovCode objIlnurGaripovCode = new IlnurGaripovCode();
+//            player[100] = objIlnurGaripovCode;
+//
+//            IgorVakhulaCode objIgorVakhulaCode = new IgorVakhulaCode();
+//            player[101] = objIgorVakhulaCode;
+//
+//            SvetlanaKabirovaCode objSvetlanaKabirovaCode = new SvetlanaKabirovaCode();
+//            player[102] = objSvetlanaKabirovaCode;
+//
+//            RomanSolovevCode objRomanSolovevCode = new RomanSolovevCode();
+//            player[103] = objRomanSolovevCode;
+//
+//            RuslanShakirovCode objRuslanShakirovCode = new RuslanShakirovCode();
+//            player[104] = objRuslanShakirovCode;
+//
+//            PavelVybornovCode objPavelVybornovCode = new PavelVybornovCode();
+//            player[105] = objPavelVybornovCode;
+//
+//            AntonTimchenkoCode objAntonTimchenkoCode = new AntonTimchenkoCode();
+//            player[106] = objAntonTimchenkoCode;
+//
+//            LiliyaGabdrahimovaCode objLiliyaGabdrahimovaCode = new LiliyaGabdrahimovaCode();
+//            player[107] = objLiliyaGabdrahimovaCode;
+//
+//            AhmedElBatanonyCode objAhmedElBatanonyCode = new AhmedElBatanonyCode();
+//            player[108] = objAhmedElBatanonyCode;
+//
+//            BogdanFedotovCode objBogdanFedotovCode = new BogdanFedotovCode();
+//            player[109] = objBogdanFedotovCode;
+//
+//            AbdulkhamidMuminovCode objAbdulkhamidMuminovCode = new AbdulkhamidMuminovCode();
+//            player[110] = objAbdulkhamidMuminovCode;
+//
+//            AygulMalikovaCode objAygulMalikovaCode = new AygulMalikovaCode();
+//            player[111] = objAygulMalikovaCode;
+//
+//        }
 
-        MikhailTkachenkoCode objMikhailTkachenkoCode = new MikhailTkachenkoCode();
-        player[0] = objMikhailTkachenkoCode;
+        {
+            AydarGabdrahmanovCode objAydarGabdrahmanovCode = new AydarGabdrahmanovCode();
+            player[0] = objAydarGabdrahmanovCode;
 
-        TemurKholmatovCode objTemurKholmatovCode = new TemurKholmatovCode();
-        player[1] = objTemurKholmatovCode;
+            EgorKlementevCode objEgorKlementevCode = new EgorKlementevCode();
+            player[1] = objEgorKlementevCode;
 
-        ArtemiiBykovCode objArtemiiBykovCode = new ArtemiiBykovCode();
-        player[2] = objArtemiiBykovCode;
+            ElviraSalikhovaCode objElviraSalikhovaCode = new ElviraSalikhovaCode();
+            player[2] = objElviraSalikhovaCode;
 
-        // End of generated code
+            RimRakhimovCode objRimRakhimovCode = new RimRakhimovCode();
+            player[3] = objRimRakhimovCode;
+
+            MikhailTkachenkoCode objMikhailTkachenkoCode = new MikhailTkachenkoCode();
+            player[4] = objMikhailTkachenkoCode;
+
+            RobertoChavezCode objRobertoChavezCode = new RobertoChavezCode();
+            player[5] = objRobertoChavezCode;
+
+            MaximSaloCode objMaximSaloCode = new MaximSaloCode();
+            player[6] = objMaximSaloCode;
+
+            IlyaAlonovCode objIlyaAlonovCode = new IlyaAlonovCode();
+            player[7] = objIlyaAlonovCode;
+
+            EgorBaklanovCode objEgorBaklanovCode = new EgorBaklanovCode();
+            player[8] = objEgorBaklanovCode;
+
+            AnastassiyaBoikoCode objAnastassiyaBoikoCode = new AnastassiyaBoikoCode();
+            player[9] = objAnastassiyaBoikoCode;
+
+            TimerlanNasyrovCode objTimerlanNasyrovCode = new TimerlanNasyrovCode();
+            player[10] = objTimerlanNasyrovCode;
+
+            VadimSolovovCode objVadimSolovovCode = new VadimSolovovCode();
+            player[11] = objVadimSolovovCode;
+
+            ArtemKozlovCode objArtemKozlovCode = new ArtemKozlovCode();
+            player[12] = objArtemKozlovCode;
+
+            NiyazFahretdinovCode objNiyazFahretdinovCode = new NiyazFahretdinovCode();
+            player[13] = objNiyazFahretdinovCode;
+
+            VladislavBakhteevCode objVladislavBakhteevCode = new VladislavBakhteevCode();
+            player[14] = objVladislavBakhteevCode;
+
+            RishatMaksudovCode objRishatMaksudovCode = new RishatMaksudovCode();
+            player[15] = objRishatMaksudovCode;
+
+            OydinoyZufarovaCode objOydinoyZufarovaCode = new OydinoyZufarovaCode();
+            player[16] = objOydinoyZufarovaCode;
+
+            OlegAndriyanchenkoCode objOlegAndriyanchenkoCode = new OlegAndriyanchenkoCode();
+            player[17] = objOlegAndriyanchenkoCode;
+
+            KamilyaTimchenkoCode objKamilyaTimchenkoCode = new KamilyaTimchenkoCode();
+            player[18] = objKamilyaTimchenkoCode;
+
+            AmirSubaevCode objAmirSubaevCode = new AmirSubaevCode();
+            player[19] = objAmirSubaevCode;
+
+            NikitaNigmatullinCode objNikitaNigmatullinCode = new NikitaNigmatullinCode();
+            player[20] = objNikitaNigmatullinCode;
+
+            PeterZakharkinCode objPeterZakharkinCode = new PeterZakharkinCode();
+            player[21] = objPeterZakharkinCode;
+
+            NikolaNovarlicCode objNikolaNovarlicCode = new NikolaNovarlicCode();
+            player[22] = objNikolaNovarlicCode;
+
+            FaritGaleevCode objFaritGaleevCode = new FaritGaleevCode();
+            player[23] = objFaritGaleevCode;
+
+            AlexanderGrukCode objAlexanderGrukCode = new AlexanderGrukCode();
+            player[24] = objAlexanderGrukCode;
+
+            DenisLevkovetsCode objDenisLevkovetsCode = new DenisLevkovetsCode();
+            player[25] = objDenisLevkovetsCode;
+
+            DanilKabirovCode objDanilKabirovCode = new DanilKabirovCode();
+            player[26] = objDanilKabirovCode;
+
+            DanilaKochanCode objDanilaKochanCode = new DanilaKochanCode();
+            player[27] = objDanilaKochanCode;
+
+            KamilAlimovCode objKamilAlimovCode = new KamilAlimovCode();
+            player[28] = objKamilAlimovCode;
+
+            ArtemIurinCode objArtemIurinCode = new ArtemIurinCode();
+            player[29] = objArtemIurinCode;
+
+            AlbertBadretdinovCode objAlbertBadretdinovCode = new AlbertBadretdinovCode();
+            player[30] = objAlbertBadretdinovCode;
+
+            RuslanSabirovCode objRuslanSabirovCode = new RuslanSabirovCode();
+            player[31] = objRuslanSabirovCode;
+
+            NikolaiMikriukovCode objNikolaiMikriukovCode = new NikolaiMikriukovCode();
+            player[32] = objNikolaiMikriukovCode;
+
+            NikitaKostenkoCode objNikitaKostenkoCode = new NikitaKostenkoCode();
+            player[33] = objNikitaKostenkoCode;
+
+            ArturRakhmatullinCode objArturRakhmatullinCode = new ArturRakhmatullinCode();
+            player[34] = objArturRakhmatullinCode;
+
+            KusalKcCode objKusalKcCode = new KusalKcCode();
+            player[35] = objKusalKcCode;
+
+            RamilAskarovCode objRamilAskarovCode = new RamilAskarovCode();
+            player[36] = objRamilAskarovCode;
+
+            KamilSaitovCode objKamilSaitovCode = new KamilSaitovCode();
+            player[37] = objKamilSaitovCode;
+
+            DmitryKonevCode objDmitryKonevCode = new DmitryKonevCode();
+            player[38] = objDmitryKonevCode;
+
+            ValeriyaVertashCode objValeriyaVertashCode = new ValeriyaVertashCode();
+            player[39] = objValeriyaVertashCode;
+
+            TemurKholmatovCode objTemurKholmatovCode = new TemurKholmatovCode();
+            player[40] = objTemurKholmatovCode;
+
+            ArinaFedorovskayaCode objArinaFedorovskayaCode = new ArinaFedorovskayaCode();
+            player[41] = objArinaFedorovskayaCode;
+
+            VladislavSavchukCode objVladislavSavchukCode = new VladislavSavchukCode();
+            player[42] = objVladislavSavchukCode;
+
+            KamilAkhmetovCode objKamilAkhmetovCode = new KamilAkhmetovCode();
+            player[43] = objKamilAkhmetovCode;
+
+            IliaMazanCode objIliaMazanCode = new IliaMazanCode();
+            player[44] = objIliaMazanCode;
+
+            AlexeyLogachevCode objAlexeyLogachevCode = new AlexeyLogachevCode();
+            player[45] = objAlexeyLogachevCode;
+
+            AntonKrylovCode objAntonKrylovCode = new AntonKrylovCode();
+            player[46] = objAntonKrylovCode;
+
+            DragosStrugarCode objDragosStrugarCode = new DragosStrugarCode();
+            player[47] = objDragosStrugarCode;
+
+            DmitryKochetovCode objDmitryKochetovCode = new DmitryKochetovCode();
+            player[48] = objDmitryKochetovCode;
+
+            IskenderGuseynovCode objIskenderGuseynovCode = new IskenderGuseynovCode();
+            player[49] = objIskenderGuseynovCode;
+
+            DariaVaskovskayaCode objDariaVaskovskayaCode = new DariaVaskovskayaCode();
+            player[50] = objDariaVaskovskayaCode;
+
+            EvgenyRomanovCode objEvgenyRomanovCode = new EvgenyRomanovCode();
+            player[51] = objEvgenyRomanovCode;
+
+            MaximPopovCode objMaximPopovCode = new MaximPopovCode();
+            player[52] = objMaximPopovCode;
+
+            AleksandraSedovaCode objAleksandraSedovaCode = new AleksandraSedovaCode();
+            player[53] = objAleksandraSedovaCode;
+
+            SalavatDinmuhametovCode objSalavatDinmuhametovCode = new SalavatDinmuhametovCode();
+            player[54] = objSalavatDinmuhametovCode;
+
+            RinatMullahmetovCode objRinatMullahmetovCode = new RinatMullahmetovCode();
+            player[55] = objRinatMullahmetovCode;
+
+            LeonidLyginCode objLeonidLyginCode = new LeonidLyginCode();
+            player[56] = objLeonidLyginCode;
+
+            RomanBogachevCode objRomanBogachevCode = new RomanBogachevCode();
+            player[57] = objRomanBogachevCode;
+
+            MikhailLyametsCode objMikhailLyametsCode = new MikhailLyametsCode();
+            player[58] = objMikhailLyametsCode;
+
+            PavelNikulinCode objPavelNikulinCode = new PavelNikulinCode();
+            player[59] = objPavelNikulinCode;
+
+            FarhadKhakimovCode objFarhadKhakimovCode = new FarhadKhakimovCode();
+            player[60] = objFarhadKhakimovCode;
+
+            HussainKaraFallahCode objHussainKaraFallahCode = new HussainKaraFallahCode();
+            player[61] = objHussainKaraFallahCode;
+
+            ArtemiiBykovCode objArtemiiBykovCode = new ArtemiiBykovCode();
+            player[62] = objArtemiiBykovCode;
+
+            AlexanderAndryukovCode objAlexanderAndryukovCode = new AlexanderAndryukovCode();
+            player[63] = objAlexanderAndryukovCode;
+
+            ElenaPatrushevaCode objElenaPatrushevaCode = new ElenaPatrushevaCode();
+            player[64] = objElenaPatrushevaCode;
+
+            AmadeyKuspakovCode objAmadeyKuspakovCode = new AmadeyKuspakovCode();
+            player[65] = objAmadeyKuspakovCode;
+
+            IlshatFatkhullinCode objIlshatFatkhullinCode = new IlshatFatkhullinCode();
+            player[66] = objIlshatFatkhullinCode;
+
+            AbdurasulRakhimovCode objAbdurasulRakhimovCode = new AbdurasulRakhimovCode();
+            player[67] = objAbdurasulRakhimovCode;
+
+            EvgeniyMuravevCode objEvgeniyMuravevCode = new EvgeniyMuravevCode();
+            player[68] = objEvgeniyMuravevCode;
+
+            MaximBurovCode objMaximBurovCode = new MaximBurovCode();
+            player[69] = objMaximBurovCode;
+
+            EnesAyanCode objEnesAyanCode = new EnesAyanCode();
+            player[70] = objEnesAyanCode;
+
+            SusannaGimaevaCode objSusannaGimaevaCode = new SusannaGimaevaCode();
+            player[71] = objSusannaGimaevaCode;
+
+            EvgeniaKivotovaCode objEvgeniaKivotovaCode = new EvgeniaKivotovaCode();
+            player[72] = objEvgeniaKivotovaCode;
+
+            AliyaZagidullinaCode objAliyaZagidullinaCode = new AliyaZagidullinaCode();
+            player[73] = objAliyaZagidullinaCode;
+
+            IlnurMamedbakovCode objIlnurMamedbakovCode = new IlnurMamedbakovCode();
+            player[74] = objIlnurMamedbakovCode;
+
+            DenisPimenovCode objDenisPimenovCode = new DenisPimenovCode();
+            player[75] = objDenisPimenovCode;
+
+            RinatBabichevCode objRinatBabichevCode = new RinatBabichevCode();
+            player[76] = objRinatBabichevCode;
+
+            DanisBegishevCode objDanisBegishevCode = new DanisBegishevCode();
+            player[77] = objDanisBegishevCode;
+
+            EgorPolivtsevCode objEgorPolivtsevCode = new EgorPolivtsevCode();
+            player[78] = objEgorPolivtsevCode;
+
+            AlekseiZhuchkovCode objAlekseiZhuchkovCode = new AlekseiZhuchkovCode();
+            player[79] = objAlekseiZhuchkovCode;
+
+            ElizavetaKolchanovaCode objElizavetaKolchanovaCode = new ElizavetaKolchanovaCode();
+            player[80] = objElizavetaKolchanovaCode;
+
+            DaniilShilintsevCode objDaniilShilintsevCode = new DaniilShilintsevCode();
+            player[81] = objDaniilShilintsevCode;
+
+            VyacheslavGoreevCode objVyacheslavGoreevCode = new VyacheslavGoreevCode();
+            player[82] = objVyacheslavGoreevCode;
+
+            IliaProkopevCode objIliaProkopevCode = new IliaProkopevCode();
+            player[83] = objIliaProkopevCode;
+
+            DanilKalininCode objDanilKalininCode = new DanilKalininCode();
+            player[84] = objDanilKalininCode;
+
+            AnastasiiaGromovaCode objAnastasiiaGromovaCode = new AnastasiiaGromovaCode();
+            player[85] = objAnastasiiaGromovaCode;
+
+            MariiaCharikovaCode objMariiaCharikovaCode = new MariiaCharikovaCode();
+            player[86] = objMariiaCharikovaCode;
+
+            VyacheslavVasilevCode objVyacheslavVasilevCode = new VyacheslavVasilevCode();
+            player[87] = objVyacheslavVasilevCode;
+
+            EugeneBondarevCode objEugeneBondarevCode = new EugeneBondarevCode();
+            player[88] = objEugeneBondarevCode;
+
+            JafarBadourCode objJafarBadourCode = new JafarBadourCode();
+            player[89] = objJafarBadourCode;
+
+            MikhailMoiseevCode objMikhailMoiseevCode = new MikhailMoiseevCode();
+            player[90] = objMikhailMoiseevCode;
+
+            MadinaGafarovaCode objMadinaGafarovaCode = new MadinaGafarovaCode();
+            player[91] = objMadinaGafarovaCode;
+
+            SemenKiselevCode objSemenKiselevCode = new SemenKiselevCode();
+            player[92] = objSemenKiselevCode;
+
+            GlebPetrakovCode objGlebPetrakovCode = new GlebPetrakovCode();
+            player[93] = objGlebPetrakovCode;
+
+            SyedAbbasCode objSyedAbbasCode = new SyedAbbasCode();
+            player[94] = objSyedAbbasCode;
+
+            VladislavSmirnovCode objVladislavSmirnovCode = new VladislavSmirnovCode();
+            player[95] = objVladislavSmirnovCode;
+
+            DanyilDvorianovCode objDanyilDvorianovCode = new DanyilDvorianovCode();
+            player[96] = objDanyilDvorianovCode;
+
+            AndreyChertkovCode objAndreyChertkovCode = new AndreyChertkovCode();
+            player[97] = objAndreyChertkovCode;
+
+            LenarGumerovCode objLenarGumerovCode = new LenarGumerovCode();
+            player[98] = objLenarGumerovCode;
+
+            IrekNazmievCode objIrekNazmievCode = new IrekNazmievCode();
+            player[99] = objIrekNazmievCode;
+
+            SvyatoslavSemenyukCode objSvyatoslavSemenyukCode = new SvyatoslavSemenyukCode();
+            player[100] = objSvyatoslavSemenyukCode;
+
+            IlnurGaripovCode objIlnurGaripovCode = new IlnurGaripovCode();
+            player[101] = objIlnurGaripovCode;
+
+            IgorVakhulaCode objIgorVakhulaCode = new IgorVakhulaCode();
+            player[102] = objIgorVakhulaCode;
+
+            SvetlanaKabirovaCode objSvetlanaKabirovaCode = new SvetlanaKabirovaCode();
+            player[103] = objSvetlanaKabirovaCode;
+
+            RomanSolovevCode objRomanSolovevCode = new RomanSolovevCode();
+            player[104] = objRomanSolovevCode;
+
+            RuslanShakirovCode objRuslanShakirovCode = new RuslanShakirovCode();
+            player[105] = objRuslanShakirovCode;
+
+            PavelVybornovCode objPavelVybornovCode = new PavelVybornovCode();
+            player[106] = objPavelVybornovCode;
+
+            AntonTimchenkoCode objAntonTimchenkoCode = new AntonTimchenkoCode();
+            player[107] = objAntonTimchenkoCode;
+
+            LiliyaGabdrahimovaCode objLiliyaGabdrahimovaCode = new LiliyaGabdrahimovaCode();
+            player[108] = objLiliyaGabdrahimovaCode;
+
+            AhmedElBatanonyCode objAhmedElBatanonyCode = new AhmedElBatanonyCode();
+            player[109] = objAhmedElBatanonyCode;
+
+            BogdanFedotovCode objBogdanFedotovCode = new BogdanFedotovCode();
+            player[110] = objBogdanFedotovCode;
+
+            AbdulkhamidMuminovCode objAbdulkhamidMuminovCode = new AbdulkhamidMuminovCode();
+            player[111] = objAbdulkhamidMuminovCode;
+
+            AygulMalikovaCode objAygulMalikovaCode = new AygulMalikovaCode();
+            player[112] = objAygulMalikovaCode;
+
+        }
 
         for (int i = 0; i < classes.length; i++) {
             emails[i] = player[i].getEmail();
+//            if (i == 0 || i == 17 || i == 18 || i == 22 || i == 45 || i == 58 || i == 81 || i == 116) continue;
             for (int j = i + 1; j < classes.length; j++) {
+//                if (j == 0 || j == 17 || j == 18 || j == 22 || j == 45 || j == 58 || j == 81 || j == 116) continue;
                 System.out.println();
-                System.out.println("Fight between " + player[i].getClass() + " and " + player[j].getClass());
+                System.out.println("Fight between " + player[i].getClass() + "(" + i + ") and " + player[j].getClass() + "(" + j + ")");
                 double[] pvpGrades = pvp(player[i], player[j]);
                 scores[i] += pvpGrades[0];
                 scores[j] += pvpGrades[1];
+                System.out.println(player[i].getClass() + " got " + pvpGrades[0] + ", and " + player[j].getClass() + " got " + pvpGrades[1]);
             }
         }
 
@@ -277,7 +939,7 @@ public class Tournament {
         studentClasses = tournament.getAllStudents(path);
 
         // Uncomment firstly to get list the generated code and copy to  and then comment
-        //        tournament.generateCode(studentClasses);
+//        tournament.generateCode(studentClasses);
 
         // Comment firstly and then uncomment to run the program
         tournament.runTournament(studentClasses);
