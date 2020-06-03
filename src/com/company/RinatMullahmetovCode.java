@@ -1,7 +1,7 @@
 package com.company;
 import java.util.*;
 
-class RinatMullahmetovCode implements Player {
+public class RinatMullahmetovCode implements Player {
     private int round;
     private int myLastMove;
     private int[] weights;
