@@ -1,21 +1,338 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="762ea13f-9121-4618-91c7-76e54aff60a1" name="Default Changelist" comment="">
+    <list default="true" id="762ea13f-9121-4618-91c7-76e54aff60a1" name="Default Changelist" comment="Code was completely refactored, was mode more flexible because of added Reflection for getting player objects. &#10;Code is prepared for 2021 contest">
+      <change afterPath="$PROJECT_DIR$/outputs/2020/grades.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excluded/AlexanderSolovyovCode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excluded/AlmirMullanurovCode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excluded/AndreyVolkovCode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excluded/ArinaKuznetsovaCode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excluded/IlyaPoteminCode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excluded/MuhammadMavlyutovCode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excluded/SergeyBogdanikCode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/excluded/TimurAnufriyevCode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/grades.csv" beforeDir="false" afterPath="$PROJECT_DIR$/grades.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grades_old.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/Tournament.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/RinatMullahmetovCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/RinatMullahmetovCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Tournament.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Tournament.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grades.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/grades_final.csv" beforeDir="false" afterPath="$PROJECT_DIR$/outputs/2020/grades_final.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/META-INF/GTAssignment2.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/ABPlayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/AbdulkhamidMuminovCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/AbdurasulRakhimovCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/AhmedElBatanonyCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/AlbertBadretdinovCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/AleksandraSedovaCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/AlekseiZhuchkovCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/AlexanderAndryukovCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/AlexanderGrukCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/AlexanderSolovyovCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/AlexanderSolovyovField.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/AlexeyLogachevCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/AliyaZagidullinaCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/AllCheat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/AllCooperate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/AllLoose.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/AlmirMullanurovCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/AlphaInverseCopycat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/AlphaPlayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/AmadeyKuspakovCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/AmirSubaevCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/AnastasiiaGromovaCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/AnastassiyaBoikoCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/AndreyChertkovCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/AndreyVolkovCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/AntonKrylovCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/AntonTimchenkoCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/ArinaFedorovskayaCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/ArinaKuznetsovaCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/ArrayIndexComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/ArtemIurinCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/ArtemKozlovCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/ArtemiiBykovCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/ArturRakhmatullinCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/AydarGabdrahmanovCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/AygulMalikovaCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/BetaPlayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/BogdanFedotovCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/CoopPlayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/CooperateDominate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/CopyKitten.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/Copycat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/DaniilShilintsevCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/DanilKabirovCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/DanilKalininCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/DanilaKochanCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/DanisBegishevCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/DanyilDvorianovCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/DariaVaskovskayaCode$RandomCollection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/DariaVaskovskayaCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/DenisLevkovetsCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/DenisPimenovCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/Detective.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/DmitryKochetovCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/DmitryKonevCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/DragosStrugarCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/EgorBaklanovCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/EgorKlementevCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/EgorPolivtsevCode$1Pair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/EgorPolivtsevCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/ElenaPatrushevaCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/ElizavetaKolchanovaCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/ElviraSalikhovaCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/EnesAyanCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/EugeneBondarevCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/EvgeniaKivotovaCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/EvgeniyMuravevCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/EvgenyRomanovCode$GreedyAgent$CompetitiveNodeComparer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/EvgenyRomanovCode$GreedyAgent$GreedyNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/EvgenyRomanovCode$GreedyAgent$OpponentPayoffMinimizerNodeComparer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/EvgenyRomanovCode$GreedyAgent$PayoffMaximizerNodeComparer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/EvgenyRomanovCode$GreedyAgent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/EvgenyRomanovCode$IERAgentBrain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/EvgenyRomanovCode$IGreedyNodeComparer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/EvgenyRomanovCode$RandomBrain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/EvgenyRomanovCode$WorldState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/EvgenyRomanovCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/FarhadKhakimovCode$X.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/FarhadKhakimovCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/FarhadKhakimovHungry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/FarhadKhakimovRandom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/FaritGaleevCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/GammaPlayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/GlebPetrakovCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/Grudger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/HussainKaraFallahCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/IgorVakhulaCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/IliaMazanCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/IliaProkopevCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/IlnurGaripovCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/IlnurMamedbakovCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/IlshatFatkhullinCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/IlyaAlonovCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/IlyaPoteminAbstractMetric.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/IlyaPoteminAbstractStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/IlyaPoteminArrayHistory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/IlyaPoteminCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/IlyaPoteminField.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/IlyaPoteminFieldState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/IlyaPoteminFightPercentMetric.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/IlyaPoteminGameStateSimulation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/IlyaPoteminGameStateSimulationImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/IlyaPoteminHistory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/IlyaPoteminInjectedMetric.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/IlyaPoteminLogger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/IlyaPoteminMetric.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/IlyaPoteminMetricFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/IlyaPoteminMooseStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/IlyaPoteminMostOpponentSelectedFieldMetric.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/IlyaPoteminMostPayoffStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/IlyaPoteminOpponentFieldDistributionMetric.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/IlyaPoteminPayoffSumMetric.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/IlyaPoteminRandomStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/IlyaPoteminRoundRecord.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/IlyaPoteminStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/IndexedValue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/IrekNazmievCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/IskenderGuseynovCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/JafarBadourCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/KamilAkhmetovCode$Environment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/KamilAkhmetovCode$Game.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/KamilAkhmetovCode$KamilAkhmetovPlayerImplANTICOPYNOTMIN.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/KamilAkhmetovCode$PlayerImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/KamilAkhmetovCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/KamilAlimovCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/KamilSaitovCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/KamilyaTimchenkoCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/KusalKcCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/LenarGumerovCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/LeonidLyginCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/LiliyaGabdrahimovaCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/MadinaGafarovaCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/MariiaCharikovaCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/MaximBurovCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/MaximPopovCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/MaximSaloCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/MikhailLyametsCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/MikhailMoiseevCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/MikhailTkachenkoCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/Move$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/Move.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/MuhammadMavlyutovCode$Log.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/MuhammadMavlyutovCode$MoveStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/MuhammadMavlyutovCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/Named.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/NamedPlayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/NikitaKostenkoCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/NikitaNigmatullinCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/NikolaNovarlicCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/NikolaiMikriukovCode$Field.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/NikolaiMikriukovCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/NiyazFahretdinovCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/OlegAndriyanchenkoCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/OydinoyZufarovaCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/Pair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/PavelNikulinCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/PavelVybornovCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/PeterZakharkinCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/Player.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/RamilAskarovCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/RandomInverseCopycat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/RandomPlayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/RandomPlayer1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/RimRakhimovCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/RinatBabichevCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/RinatMullahmetovCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/RishatMaksudovCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/RobertoChavezCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/RomanBogachevCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/RomanSolovevCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/RuslanSabirovCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/RuslanShakirovCode$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/RuslanShakirovCode$Payoffs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/RuslanShakirovCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/SalavatDinmuhametovCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/SemenKiselevCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/Sequantialist.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/SergeyBogdanikCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/Simpleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/SkipAtTopPlayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/SortByCost2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/SusannaGimaevaCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/SvetlanaKabirovaCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/SvyatoslavSemenyukCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/SyedAbbasCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/TemurKholmatovCode$OpponentStrategies.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/TemurKholmatovCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/TimerlanNasyrovCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/TimurAnufriyevCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/VadimSolovovCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/ValeriyaVertashCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/VladislavBakhteevCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/VladislavBakhteevPlayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/VladislavSavchukCode$Move.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/VladislavSavchukCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/VladislavSmirnovCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/VyacheslavGoreevCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/VyacheslavVasilevCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/VyacheslavVasilevDedBot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/VyacheslavVasilevGreedyBot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/VyacheslavVasilevRandomBot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GTAssignment2/com/company/gameTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/AbdulkhamidMuminovCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/AbdulkhamidMuminovCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/AbdurasulRakhimovCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/AbdurasulRakhimovCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/AhmedElBatanonyCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/AhmedElBatanonyCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/AlbertBadretdinovCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/AlbertBadretdinovCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/AleksandraSedovaCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/AleksandraSedovaCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/AlekseiZhuchkovCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/AlekseiZhuchkovCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/AlexanderAndryukovCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/AlexanderAndryukovCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/AlexanderGrukCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/AlexanderGrukCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/AlexanderSolovyovCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/AlexanderSolovyovCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/AlexeyLogachevCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/AlexeyLogachevCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/AliyaZagidullinaCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/AliyaZagidullinaCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/AlmirMullanurovCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/AlmirMullanurovCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/AmadeyKuspakovCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/AmadeyKuspakovCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/AmirSubaevCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/AmirSubaevCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/AnastasiiaGromovaCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/AnastasiiaGromovaCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/AnastassiyaBoikoCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/AnastassiyaBoikoCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/AndreyChertkovCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/AndreyChertkovCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/AndreyVolkovCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/AndreyVolkovCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/AntonKrylovCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/AntonKrylovCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/AntonTimchenkoCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/AntonTimchenkoCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/ArinaFedorovskayaCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/ArinaFedorovskayaCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/ArinaKuznetsovaCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/ArinaKuznetsovaCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/ArtemIurinCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/ArtemIurinCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/ArtemKozlovCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/ArtemKozlovCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/ArtemiiBykovCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/ArtemiiBykovCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/ArturRakhmatullinCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/ArturRakhmatullinCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/AydarGabdrahmanovCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/AydarGabdrahmanovCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/AygulMalikovaCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/AygulMalikovaCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/BogdanFedotovCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/BogdanFedotovCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/DaniilShilintsevCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/DaniilShilintsevCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/DanilKabirovCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/DanilKabirovCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/DanilKalininCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/DanilKalininCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/DanilaKochanCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/DanilaKochanCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/DanisBegishevCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/DanisBegishevCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/DanyilDvorianovCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/DanyilDvorianovCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/DariaVaskovskayaCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/DariaVaskovskayaCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/DenisLevkovetsCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/DenisLevkovetsCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/DenisPimenovCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/DenisPimenovCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/DmitryKochetovCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/DmitryKochetovCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/DmitryKonevCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/DmitryKonevCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/DragosStrugarCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/DragosStrugarCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/EgorBaklanovCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/EgorBaklanovCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/EgorKlementevCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/EgorKlementevCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/EgorPolivtsevCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/EgorPolivtsevCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/ElenaPatrushevaCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/ElenaPatrushevaCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/ElizavetaKolchanovaCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/ElizavetaKolchanovaCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/ElviraSalikhovaCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/ElviraSalikhovaCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/EnesAyanCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/EnesAyanCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/EugeneBondarevCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/EugeneBondarevCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/EvgeniaKivotovaCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/EvgeniaKivotovaCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/EvgeniyMuravevCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/EvgeniyMuravevCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/EvgenyRomanovCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/EvgenyRomanovCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/FarhadKhakimovCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/FarhadKhakimovCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/FaritGaleevCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/FaritGaleevCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/GlebPetrakovCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/GlebPetrakovCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/HussainKaraFallahCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/HussainKaraFallahCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/IgorVakhulaCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/IgorVakhulaCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/IliaMazanCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/IliaMazanCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/IliaProkopevCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/IliaProkopevCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/IlnurGaripovCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/IlnurGaripovCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/IlnurMamedbakovCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/IlnurMamedbakovCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/IlshatFatkhullinCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/IlshatFatkhullinCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/IlyaAlonovCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/IlyaAlonovCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/IlyaPoteminCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/IlyaPoteminCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/IrekNazmievCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/IrekNazmievCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/IskenderGuseynovCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/IskenderGuseynovCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/JafarBadourCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/JafarBadourCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/KamilAkhmetovCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/KamilAkhmetovCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/KamilAlimovCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/KamilAlimovCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/KamilSaitovCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/KamilSaitovCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/KamilyaTimchenkoCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/KamilyaTimchenkoCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/KusalKcCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/KusalKcCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/LenarGumerovCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/LenarGumerovCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/LeonidLyginCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/LeonidLyginCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/LiliyaGabdrahimovaCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/LiliyaGabdrahimovaCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/MadinaGafarovaCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/MadinaGafarovaCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/MariiaCharikovaCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/MariiaCharikovaCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/MaximBurovCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/MaximBurovCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/MaximPopovCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/MaximPopovCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/MaximSaloCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/MaximSaloCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/MikhailLyametsCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/MikhailLyametsCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/MikhailMoiseevCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/MikhailMoiseevCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/MikhailTkachenkoCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/MikhailTkachenkoCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/MuhammadMavlyutovCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/MuhammadMavlyutovCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NikitaKostenkoCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/NikitaKostenkoCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NikitaNigmatullinCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/NikitaNigmatullinCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NikolaNovarlicCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/NikolaNovarlicCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NikolaiMikriukovCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/NikolaiMikriukovCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/NiyazFahretdinovCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/NiyazFahretdinovCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/OlegAndriyanchenkoCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/OlegAndriyanchenkoCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/OydinoyZufarovaCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/OydinoyZufarovaCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/PavelNikulinCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/PavelNikulinCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/PavelVybornovCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/PavelVybornovCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/PeterZakharkinCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/PeterZakharkinCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/RamilAskarovCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/RamilAskarovCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/RimRakhimovCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/RimRakhimovCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/RinatBabichevCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/RinatBabichevCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/RinatMullahmetovCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/RinatMullahmetovCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/RishatMaksudovCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/RishatMaksudovCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/RobertoChavezCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/RobertoChavezCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/RomanBogachevCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/RomanBogachevCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/RomanSolovevCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/RomanSolovevCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/RuslanSabirovCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/RuslanSabirovCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/RuslanShakirovCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/RuslanShakirovCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/SalavatDinmuhametovCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/SalavatDinmuhametovCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/SemenKiselevCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/SemenKiselevCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/SergeyBogdanikCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/SergeyBogdanikCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/SusannaGimaevaCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/SusannaGimaevaCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/SvetlanaKabirovaCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/SvetlanaKabirovaCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/SvyatoslavSemenyukCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/SvyatoslavSemenyukCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/SyedAbbasCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/SyedAbbasCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/TemurKholmatovCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/TemurKholmatovCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/TimerlanNasyrovCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/TimerlanNasyrovCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/TimurAnufriyevCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/TimurAnufriyevCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Tournament.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/Tournament.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/VadimSolovovCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/VadimSolovovCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/ValeriyaVertashCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/ValeriyaVertashCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/VladislavBakhteevCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/VladislavBakhteevCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/VladislavSavchukCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/VladislavSavchukCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/VladislavSmirnovCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/VladislavSmirnovCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/VyacheslavGoreevCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/VyacheslavGoreevCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/VyacheslavVasilevCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gametheory/assignment2/students2020/VyacheslavVasilevCode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,13 +356,22 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/outputs/2020" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Tournament">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -61,8 +387,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Tournament" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gametheory.assignment2.Tournament" />
+      <module name="GTAssignment2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gametheory.assignment2.students2020.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -94,10 +445,12 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Tournament" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -108,84 +461,71 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585205012163</updated>
+      <workItem from="1607434764872" duration="767000" />
+      <workItem from="1607466605057" duration="1130000" />
+      <workItem from="1614177648991" duration="7624000" />
+      <workItem from="1614238944196" duration="5737000" />
+      <workItem from="1614591962791" duration="7611000" />
     </task>
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Code was completely refactored, was mode more flexible because of added Reflection for getting player objects. &#10;Code is prepared for 2021 contest" />
+    <option name="LAST_COMMIT_MESSAGE" value="Code was completely refactored, was mode more flexible because of added Reflection for getting player objects. &#10;Code is prepared for 2021 contest" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="320" y="115" key="#Inspections" timestamp="1586793476449">
+    <state x="0" y="0" width="1440" height="900" key="CommitChangelistDialog2" timestamp="1614613601279">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="115" key="#Inspections/0.0.1440.900@0.0.1440.900" timestamp="1586793476449" />
-    <state x="320" y="98" key="#Plugins" timestamp="1587058000662">
+    <state x="0" y="0" width="1440" height="900" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1614613601279" />
+    <state width="1398" height="223" key="GridCell.Tab.0.bottom" timestamp="1614613287078">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="98" key="#Plugins/0.0.1440.900@0.0.1440.900" timestamp="1587058000662" />
-    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587058103429">
+    <state width="1398" height="223" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1614613287078" />
+    <state width="1398" height="223" key="GridCell.Tab.0.center" timestamp="1614613287075">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1587058103429" />
-    <state width="1398" height="223" key="GridCell.Tab.0.bottom" timestamp="1588950773478">
+    <state width="1398" height="223" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1614613287075" />
+    <state width="1398" height="223" key="GridCell.Tab.0.left" timestamp="1614613287071">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="223" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1588950773478" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.23.1440.814@0.23.1440.814" timestamp="1587130643686" />
-    <state width="1398" height="223" key="GridCell.Tab.0.center" timestamp="1588950773475">
+    <state width="1398" height="223" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1614613287071" />
+    <state width="1398" height="223" key="GridCell.Tab.0.right" timestamp="1614613287077">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="223" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1588950773475" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.23.1440.814@0.23.1440.814" timestamp="1587130643682" />
-    <state width="1398" height="223" key="GridCell.Tab.0.left" timestamp="1588950773473">
+    <state width="1398" height="223" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1614613287077" />
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1614201451631">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="223" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1588950773473" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.23.1440.814@0.23.1440.814" timestamp="1587130643681" />
-    <state width="1398" height="223" key="GridCell.Tab.0.right" timestamp="1588950773477">
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1614201451631" />
+    <state width="1398" height="303" key="GridCell.Tab.1.center" timestamp="1614201451630">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="223" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1588950773477" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.23.1440.814@0.23.1440.814" timestamp="1587130643683" />
-    <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1588885527050">
+    <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1614201451630" />
+    <state width="1398" height="303" key="GridCell.Tab.1.left" timestamp="1614201451629">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1588885527050" />
-    <state width="1398" height="303" key="GridCell.Tab.1.center" timestamp="1588885527047">
+    <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1614201451629" />
+    <state width="1398" height="303" key="GridCell.Tab.1.right" timestamp="1614201451630">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1588885527047" />
-    <state width="1398" height="303" key="GridCell.Tab.1.left" timestamp="1588885527046">
+    <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1614201451630" />
+    <state x="385" y="196" key="search.everywhere.popup" timestamp="1614240120741">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1588885527046" />
-    <state width="1398" height="303" key="GridCell.Tab.1.right" timestamp="1588885527049">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1588885527049" />
-    <state x="229" y="23" width="1024" height="816" key="SettingsEditor" timestamp="1587066792860">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="229" y="23" width="1024" height="816" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1587066792860" />
-    <state x="229" y="69" key="SettingsEditor/0.23.1440.816@0.23.1440.816" timestamp="1586261608992" />
-    <state x="413" y="262" key="com.intellij.ide.util.TipDialog" timestamp="1587046669188">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="413" y="262" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1587046669188" />
-    <state x="413" y="262" key="com.intellij.ide.util.TipDialog/0.23.1440.814@0.23.1440.814" timestamp="1586342978942" />
-    <state x="413" y="263" key="com.intellij.ide.util.TipDialog/0.23.1440.816@0.23.1440.816" timestamp="1586261550263" />
-    <state x="143" y="72" key="new project wizard" timestamp="1587382552048">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="143" y="72" key="new project wizard/0.0.1440.900@0.0.1440.900" timestamp="1587382552048" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1587063544145">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1587063544145" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.23.1440.816@0.23.1440.816" timestamp="1587063534436" />
+    <state x="385" y="196" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1614240120741" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/company/SergeyBogdanikCode.java</url>
+          <url>file://$PROJECT_DIR$/src/gametheory/assignment2/students2020/SergeyBogdanikCode.java</url>
           <line>30</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
