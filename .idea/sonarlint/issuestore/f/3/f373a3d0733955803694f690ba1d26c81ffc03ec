@@ -1,0 +1,13 @@
+
+P
+java:S18545":Remove this useless assignment to local variable "prevxB".(ÃŽ´Ë
+U
+java:S18544":Remove this useless assignment to local variable "prevxA".(Ôˆ ¬ÿÿÿÿÿ
+P
+java:S18546":Remove this useless assignment to local variable "prevxC".(“ÑýÍ
+m
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(Ê˜™ùýÿÿÿÿ
+?
+java:S1659"$Declare "prevxB" on a separate line.(¦¢ÌÊýÿÿÿÿ
+?
+java:S1659"$Declare "prevxC" on a separate line.(¦¢ÌÊýÿÿÿÿ

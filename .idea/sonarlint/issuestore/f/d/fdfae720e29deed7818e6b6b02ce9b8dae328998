@@ -1,0 +1,37 @@
+
+R
+java:S3655V"7Call "Optional#isPresent()" before accessing the value.(´ÛšÍûÿÿÿÿ
+R
+java:S3655\"7Call "Optional#isPresent()" before accessing the value.(µ…æ¼ûÿÿÿÿ
+R
+java:S3655""7Call "Optional#isPresent()" before accessing the value.(¿¦´ıÿÿÿÿ
+R
+java:S3655H"7Call "Optional#isPresent()" before accessing the value.(ø„ôŠşÿÿÿÿ
+
+java:S1130!"kRemove the declaration of thrown exception 'java.util.NoSuchElementException' which is a runtime exception.(‰ÅÑ©
+<	java:S131|""Add a default case to this switch.(èŠœ›ûÿÿÿÿ
+B
+java:S1659•"&Declare "opponent" on a separate line.(şµ»üÿÿÿÿ
+a
+java:S1124”"EReorder the modifiers to comply with the Java Language Specification.(…êÅ„şÿÿÿÿ
+<
+java:S1659¡" Declare "xB" on a separate line.(ˆüì’üÿÿÿÿ
+<
+java:S1659¡" Declare "xC" on a separate line.(ˆüì’üÿÿÿÿ
+:
+java:S1659¥"#Declare "moveA" on a separate line.(†ö©¬
+:
+java:S1659¥"#Declare "moveB" on a separate line.(†ö©¬
+:
+java:S1659¥"#Declare "moveC" on a separate line.(†ö©¬
+a
+java:S1124 "EReorder the modifiers to comply with the Java Language Specification.(ğªÒûûÿÿÿÿ
+?
+java:S4274¨"(Replace this assert with a proper check.(ÁÁ» 
+?
+java:S4274µ"(Replace this assert with a proper check.(¨™ûø
+?
+java:S4274´"(Replace this assert with a proper check.(ÁÁ» 
+8	java:S131É""Add a default case to this switch.(¨ÕÉ
+A
+java:S1144!"+Remove this unused private "argMax" method.(‰ÅÑ©

@@ -1,0 +1,37 @@
+
+Z	java:S106V"9Replace this use of System.out or System.err by a logger.(Å­Ëİúÿÿÿÿ8‹ŞÂı.
+U	java:S106Q"9Replace this use of System.out or System.err by a logger.(¯úÂ…8‹ŞÂı.
+[
+java:S1197"8Move the array designator from the variable to the type.(½ÜûÏûÿÿÿÿ8ÔŒÁÉı.
+[	java:S106…"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8°ßîÁı.
+T
+java:S1068"2Remove this unused "INPUT_PATH2021" private field.(Ô¡¦ÿÿÿÿÿ8Ë¹³­ı.
+V	java:S106"9Replace this use of System.out or System.err by a logger.(ÈšÎ˜8‹ŞÂı.
+^	java:S125„"<This block of commented-out lines of code should be removed.(òšµ‰ÿÿÿÿÿ8‹ŞÂı.
+P
+java:S1199“"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8‹ŞÂı.
+Z	java:S106F"9Replace this use of System.out or System.err by a logger.(»¸ü”ÿÿÿÿÿ8‹ŞÂı.
+o
+java:S3776u"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(Øö×Ø8‹ŞÂı.
+U	java:S106J"9Replace this use of System.out or System.err by a logger.(ßı¦Ü8‹ŞÂı.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(òÌÄ/8‹ŞÂı.
+X	java:S125‚"<This block of commented-out lines of code should be removed.(ÄÖŞ+8‹ŞÂı.
+[	java:S106Ò"9Replace this use of System.out or System.err by a logger.(æ¼›úÿÿÿÿ8‹ŞÂı.
+V	java:S106‰"9Replace this use of System.out or System.err by a logger.(ì¬¹í8‹ŞÂı.
+^	java:S125Ü"<This block of commented-out lines of code should be removed.(‚åğğúÿÿÿÿ8‹ŞÂı.
+[	java:S106ı"9Replace this use of System.out or System.err by a logger.(ö¼¦÷ÿÿÿÿÿ8±ıâÈı.
+[	java:S106†"9Replace this use of System.out or System.err by a logger.(·ó¼øÿÿÿÿ8‹ŞÂı.
+Y	java:S125»"<This block of commented-out lines of code should be removed.(îñŞË8‹ŞÂı.
+[	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8°ßîÁı.
+[	java:S106Â"9Replace this use of System.out or System.err by a logger.(ö¼¦÷ÿÿÿÿÿ8‹ŞÂı.
+Z	java:S106T"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8‹ŞÂı.
+z
+java:S1192Â"WDefine a constant instead of duplicating this literal "Something went wrong. " 3 times.(ö¼¦÷ÿÿÿÿÿ8±ıâÈı.
+U
+java:S1068"3Remove this unused "OUTPUT_PATH2021" private field.(˜²­”ùÿÿÿÿ8Ë¹³­ı.
+N
+java:S1144`"1Remove this unused private "generateCode" method.(¨îÂ8‹ŞÂı.
+^	java:S125Á"<This block of commented-out lines of code should be removed.(æËŸ­ÿÿÿÿÿ8‹ŞÂı.
+[	java:S106Š"9Replace this use of System.out or System.err by a logger.( «‹æıÿÿÿÿ8‹ŞÂı.
+Z	java:S106h"9Replace this use of System.out or System.err by a logger.(Å­Ëİúÿÿÿÿ8‹ŞÂı.
+^	java:S125š"<This block of commented-out lines of code should be removed.(ÜĞ‚˜ûÿÿÿÿ8æØâÈı.

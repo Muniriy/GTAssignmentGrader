@@ -1,0 +1,29 @@
+
+?
+java:S1940x")Use the opposite operator ("<=") instead.(¤‚¤•
+k	java:S117L"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„­…¹ÿÿÿÿÿ
+n	java:S116"TRename this field "last_best" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èåöôþÿÿÿÿ
+n	java:S116"YRename this field "not_best_count" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½åÒá
+<
+java:S1170"!Make this final field static too.(ÑåÎ™ûÿÿÿÿ
+j	java:S116"URename this field "best_count" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½åÒá
+k	java:S117e"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£ßòÆüÿÿÿÿ
+l	java:S116"XRename this field "op_last_moves" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡Œ¸P
+n	java:S116"YRename this field "max_same_moves" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•žÉß
+v	java:S116"\Rename this field "passive_threshold" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÑåÎ™ûÿÿÿÿ
+7
+java:S1170"!Make this final field static too.(•žÉß
+c	java:S100A"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ëË°±
+<
+java:S1170"!Make this final field static too.(óü•Æùÿÿÿÿ
+f	java:S117l"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿Øµ˜
+9
+java:S16591"#Declare "label" on a separate line.(Šåõ«
+B
+java:S1659",Declare "not_best_count" on a separate line.(½åÒá
+w	java:S116"]Rename this field "take_max_threshold" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óü•Æùÿÿÿÿ
+o	java:S116"URename this field "last_moves" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½†—Íýÿÿÿÿ
+9
+java:S2119a"Save and re-use this "Random".(šŸ«íøÿÿÿÿ
+m
+java:S3776Y"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(Ê˜™ùýÿÿÿÿ

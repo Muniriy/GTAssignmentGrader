@@ -1,0 +1,77 @@
+
+`
+java:S3358È"DExtract this nested ternary operation into an independent statement.(‚¢„œûÿÿÿÿ
+s	java:S116/"YRename this field "prevC_notEqual" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñî¿÷ÿÿÿÿÿ
+m
+java:S1104'"RMake gentle a static final constant or non-public and provide accessors if needed.(ùÆûƒşÿÿÿÿ
+l	java:S117Ç"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«„ëÔıÿÿÿÿ
+u
+java:S1104/"ZMake prevA_notEqual a static final constant or non-public and provide accessors if needed.(Ñî¿÷ÿÿÿÿÿ
+F
+java:S5411"*Use the primitive boolean expression here.(¥“Ô½úÿÿÿÿ
+g	java:S117½"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(òÁô¼
+l	java:S117Ç"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«„ëÔıÿÿÿÿ
+S
+java:S2589Â"7Remove this expression which always evaluates to "true"(¼óÑıÿÿÿÿ
+o
+java:S1104,"YMake firstEquality a static final constant or non-public and provide accessors if needed.(¢›­²
+l
+java:S1104."QMake prevA a static final constant or non-public and provide accessors if needed.(Ù§úïøÿÿÿÿ
+g	java:S117½"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(òÁô¼
+s	java:S116/"YRename this field "prevA_notEqual" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñî¿÷ÿÿÿÿÿ
+m
+java:S37769"RRefactor this method to reduce its Cognitive Complexity from 56 to the 15 allowed.(Ê˜™ùıÿÿÿÿ
+t
+java:S2293("YReplace the type specification in this constructor call with the diamond operator ("<>").(»‰šÿÿÿÿÿ
+l
+java:S1104."QMake prevC a static final constant or non-public and provide accessors if needed.(Ù§úïøÿÿÿÿ
+8
+java:S1116Â"Remove this empty statement.(¼óÑıÿÿÿÿ
+l	java:S117Ç"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«„ëÔıÿÿÿÿ
+>
+java:S1659."#Declare "prevC" on a separate line.(Ù§úïøÿÿÿÿ
+w
+java:S1104$"\Make oppLast_notEqual a static final constant or non-public and provide accessors if needed.(Õóş¤ıÿÿÿÿ
+S
+java:S2589Ì"7Remove this expression which always evaluates to "true"( Ù€Šüÿÿÿÿ
+>
+java:S1659."#Declare "prevB" on a separate line.(Ù§úïøÿÿÿÿ
+v
+java:S1104-"[Make firstComparison a static final constant or non-public and provide accessors if needed.(ÎÚÚ¥şÿÿÿÿ
+l
+java:S1104""VMake myLastMove a static final constant or non-public and provide accessors if needed.(âôñ§
+l
+java:S1104."QMake prevB a static final constant or non-public and provide accessors if needed.(Ù§úïøÿÿÿÿ
+u
+java:S1104/"ZMake prevB_notEqual a static final constant or non-public and provide accessors if needed.(Ñî¿÷ÿÿÿÿÿ
+G
+java:S1659/",Declare "prevB_notEqual" on a separate line.(Ñî¿÷ÿÿÿÿÿ
+u	java:S116$"[Rename this field "oppLast_notEqual" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Õóş¤ıÿÿÿÿ
+3
+java:S1116À"Remove this empty statement.(Ä‚—ğ
+v
+java:S1104&"[Make chooseDirection a static final constant or non-public and provide accessors if needed.(Ÿ°Çñÿÿÿÿÿ
+`
+java:S3358È"DExtract this nested ternary operation into an independent statement.(‚¢„œûÿÿÿÿ
+r
+java:S1104#"WMake oppLastMove a static final constant or non-public and provide accessors if needed.(–ô¾şÿÿÿÿ
+G
+java:S1659/",Declare "prevC_notEqual" on a separate line.(Ñî¿÷ÿÿÿÿÿ
+o
+java:S1104%"YMake leftDirection a static final constant or non-public and provide accessors if needed.(†¸Êâ
+g	java:S117½"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(òÁô¼
+N
+java:S1197É"8Move the array designator from the variable to the type.(òÎ”
+U
+java:S4973"9Use the "equals" method if value comparison was intended.(¥“Ô½úÿÿÿÿ
+3
+java:S1116Á"Remove this empty statement.(ıò÷ß
+u
+java:S1104/"ZMake prevC_notEqual a static final constant or non-public and provide accessors if needed.(Ñî¿÷ÿÿÿÿÿ
+h
+java:S1104!"RMake greedy a static final constant or non-public and provide accessors if needed.(‰—½Š
+`
+java:S3358È"DExtract this nested ternary operation into an independent statement.(‚¢„œûÿÿÿÿ
+s	java:S116/"YRename this field "prevB_notEqual" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñî¿÷ÿÿÿÿÿ
+`
+java:S3358È"DExtract this nested ternary operation into an independent statement.(‚¢„œûÿÿÿÿ

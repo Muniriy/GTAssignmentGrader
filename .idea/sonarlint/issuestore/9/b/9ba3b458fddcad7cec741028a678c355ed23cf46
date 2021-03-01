@@ -1,0 +1,10 @@
+
+m
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(Ê˜™ùýÿÿÿÿ
+_
+java:S3358E"DExtract this nested ternary operation into an independent statement.(ö€èçúÿÿÿÿ
+_
+java:S3358E"DExtract this nested ternary operation into an independent statement.(ö€èçúÿÿÿÿ
+<	java:S131J""Add a default case to this switch.(­ï©¦ÿÿÿÿÿ
+t
+java:S2234P"YParameters to getBest have the same names but not the same order as the method arguments.(©þô üÿÿÿÿ

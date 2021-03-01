@@ -1,0 +1,32 @@
+
+b
+java:S1192`"GDefine a constant instead of duplicating this literal "greedy" 6 times.(áÔáÀşÿÿÿÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(·”í™
+n
+java:S3776ì"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(²äÉşÿÿÿÿ
+S
+java:S2589Ù"7Remove this expression which always evaluates to "true"(¶‚ú¼ıÿÿÿÿ
+e
+java:S1192'"JDefine a constant instead of duplicating this literal "undefined" 3 times.(›—ñÁøÿÿÿÿ
+c
+java:S1192c"HDefine a constant instead of duplicating this literal "optimal" 4 times.(†‡°ºùÿÿÿÿ
+S
+java:S2589Ã"7Remove this expression which always evaluates to "true"(ÁÉ«¥øÿÿÿÿ
+=	java:S131à""Add a default case to this switch.(×¯‰íüÿÿÿÿ
+n
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 74 to the 15 allowed.(ÌÆÒŠşÿÿÿÿ
+S
+java:S1172"7Remove this unused method parameter "opponentLastMove".(ÌÆÒŠşÿÿÿÿ
+b
+java:S1192j"GDefine a constant instead of duplicating this literal "random" 5 times.(•Ã¿“ÿÿÿÿÿ
+S
+java:S2589Ã"7Remove this expression which always evaluates to "true"(ÁÉ«¥øÿÿÿÿ
+S
+java:S2589¶"7Remove this expression which always evaluates to "true"(¶‚ú¼ıÿÿÿÿ
+E
+java:S2140ı")Use "java.util.Random.nextInt()" instead.(ÕÎ¢œùÿÿÿÿ
+Q	java:S125i"<This block of commented-out lines of code should be removed.(áü€„
+]
+java:S1192f"HDefine a constant instead of duplicating this literal "chicken" 6 times.(ú×o
+U
+java:S4973Ò"9Use the "equals" method if value comparison was intended.(ÍÛ¨¬üÿÿÿÿ

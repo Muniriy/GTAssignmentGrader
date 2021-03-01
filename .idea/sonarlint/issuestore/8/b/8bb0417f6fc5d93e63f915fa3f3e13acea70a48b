@@ -1,0 +1,85 @@
+
+9
+java:S1659K"#Declare "ndmax" on a separate line.(†ÕŠ©
+P
+java:S1854c"5Remove this useless assignment to local variable "t".(…×¥¯üÿÿÿÿ
+Q
+java:S2696o"6Make the enclosing method "static" or remove this set.(ÃÌ™ÿÿÿÿÿ
+;
+java:S1659
+"%Declare "lastMax" on a separate line.(ñ€äŸ
+L
+java:S26969"6Make the enclosing method "static" or remove this set.(¸“à®
+B
+java:S1659H"'Declare "low_index" on a separate line.(ôåÃÁúÿÿÿÿ
+4
+java:S3010*"Remove this assignment of "V".(§ôø­
+L
+java:S26969"6Make the enclosing method "static" or remove this set.(¸“à®
+L
+java:S26969"6Make the enclosing method "static" or remove this set.(¸“à®
+L
+java:S26968"6Make the enclosing method "static" or remove this set.(²Î‰ù
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²ùôä
+Q	java:S125\"<This block of commented-out lines of code should be removed.(„´”Ä
+C
+java:S1659
+"-Declare "indexOfLastMove" on a separate line.(ñ€äŸ
+4
+java:S3010-"Remove this assignment of "H".(¸“à®
+4
+java:S3010+"Remove this assignment of "V".(­É“¦
+L
+java:S2696k"6Make the enclosing method "static" or remove this set.(½’‰˜
+V	java:S125"<This block of commented-out lines of code should be removed.(à¢Ôñÿÿÿÿÿ
+L
+java:S2696k"6Make the enclosing method "static" or remove this set.(½’‰˜
+4
+java:S3010-"Remove this assignment of "H".(¸“à®
+f	java:S117W"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±½„è
+4
+java:S3010,"Remove this assignment of "V".(²Î‰ù
+k	java:S117H"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôåÃÁúÿÿÿÿ
+L
+java:S26967"6Make the enclosing method "static" or remove this set.(­É“¦
+c	java:S100<"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÇËÁ£
+Q
+java:S2696s"6Make the enclosing method "static" or remove this set.(ûĞÕ·ùÿÿÿÿ
+L
+java:S2696j"6Make the enclosing method "static" or remove this set.(ÉĞİš
+L
+java:S2696p"6Make the enclosing method "static" or remove this set.(½’‰˜
+4
+java:S3010-"Remove this assignment of "H".(¸“à®
+X
+java:S1854H"=Remove this useless assignment to local variable "low_index".(ôåÃÁúÿÿÿÿ
+g
+java:S3008"LRename this field "V" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŠşÔÿÿÿÿÿ
+Q
+java:S2696i"6Make the enclosing method "static" or remove this set.(É„¨Ìøÿÿÿÿ
+@
+java:S5411g"*Use the primitive boolean expression here.(Ö Ø
+L
+java:S26966"6Make the enclosing method "static" or remove this set.(§ôø­
+L
+java:S2696p"6Make the enclosing method "static" or remove this set.(½’‰˜
+g
+java:S3008	"LRename this field "H" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ØÍ¬éüÿÿÿÿ
+L
+java:S2696p"6Make the enclosing method "static" or remove this set.(½’‰˜
+A
+java:S1481c"&Remove this unused "t" local variable.(…×¥¯üÿÿÿÿ
+D
+java:S1659H")Declare "ndmax_index" on a separate line.(ôåÃÁúÿÿÿÿ
+K
+java:S2696h"6Make the enclosing method "static" or remove this set.(ùøÇa
+Q	java:S125J"<This block of commented-out lines of code should be removed.(ÏŒÖ€
+k	java:S117H"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôåÃÁúÿÿÿÿ
+L
+java:S2696!"6Make the enclosing method "static" or remove this set.(èáú­
+L
+java:S2696k"6Make the enclosing method "static" or remove this set.(½’‰˜
+k	java:S117H"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôåÃÁúÿÿÿÿ
+Q	java:S125J"<This block of commented-out lines of code should be removed.(ÏŒÖ€
+V	java:S125Y"<This block of commented-out lines of code should be removed.(ÂÕøûÿÿÿÿ
+f	java:S117U"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œÙƒ
