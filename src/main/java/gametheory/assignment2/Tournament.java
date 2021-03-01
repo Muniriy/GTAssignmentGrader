@@ -186,8 +186,6 @@ public class Tournament {
                     log.error("Impossible move was returned");
                 }
             }
-//            log.info("Score of {} is {}", player1.getClass(), scores[0]);
-//            log.info("Score of {} is {}", player2.getClass(), scores[1]);
         }
         return scores;
     }
