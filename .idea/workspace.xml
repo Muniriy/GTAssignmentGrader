@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="762ea13f-9121-4618-91c7-76e54aff60a1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/outputs/2020/grades.csv" beforeDir="false" afterPath="$PROJECT_DIR$/outputs/2020/grades.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +152,7 @@
       <workItem from="1607466605057" duration="1130000" />
       <workItem from="1614177648991" duration="7624000" />
       <workItem from="1614238944196" duration="5737000" />
-      <workItem from="1614591962791" duration="12261000" />
+      <workItem from="1614591962791" duration="12629000" />
     </task>
     <task id="LOCAL-00001" summary="Code was completely refactored, was mode more flexible because of added Reflection for getting player objects. &#10;Code is prepared for 2021 contest">
       <created>1614613779278</created>
@@ -168,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614619360412</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Made refactoring">
+      <created>1614619669282</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1614619669282</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,7 +184,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Code was completely refactored, was mode more flexible because of added Reflection for getting player objects. &#10;Code is prepared for 2021 contest" />
     <MESSAGE value="Added Maven builder to the project. Added log4j instead of console outputs. Made refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Maven builder to the project. Added log4j instead of console outputs. Made refactoring" />
+    <MESSAGE value="Made refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="Made refactoring" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -187,26 +195,26 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="345" y="146" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1440.900@0.0.1440.900" timestamp="1614614387673" />
-    <state x="0" y="0" width="1440" height="900" key="CommitChangelistDialog2" timestamp="1614619359024">
+    <state x="0" y="23" width="1440" height="814" key="CommitChangelistDialog2" timestamp="1614619668959">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="0" y="0" width="1440" height="900" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1614619359024" />
-    <state width="1398" height="223" key="GridCell.Tab.0.bottom" timestamp="1614618308992">
+    <state x="0" y="23" width="1440" height="814" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1614619668959" />
+    <state width="1398" height="223" key="GridCell.Tab.0.bottom" timestamp="1614619706661">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="223" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1614618308992" />
-    <state width="1398" height="223" key="GridCell.Tab.0.center" timestamp="1614618308988">
+    <state width="1398" height="223" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1614619706661" />
+    <state width="1398" height="223" key="GridCell.Tab.0.center" timestamp="1614619706657">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="223" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1614618308988" />
-    <state width="1398" height="223" key="GridCell.Tab.0.left" timestamp="1614618308987">
+    <state width="1398" height="223" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1614619706657" />
+    <state width="1398" height="223" key="GridCell.Tab.0.left" timestamp="1614619706655">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="223" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1614618308987" />
-    <state width="1398" height="223" key="GridCell.Tab.0.right" timestamp="1614618308990">
+    <state width="1398" height="223" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1614619706655" />
+    <state width="1398" height="223" key="GridCell.Tab.0.right" timestamp="1614619706658">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="223" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1614618308990" />
+    <state width="1398" height="223" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1614619706658" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1614201451631">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -223,10 +231,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1614201451630" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1614613807220">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1614619689987">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1614613807220" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1614619689987" />
     <state x="385" y="196" key="search.everywhere.popup" timestamp="1614240120741">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
