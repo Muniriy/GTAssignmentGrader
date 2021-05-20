@@ -11,10 +11,9 @@ import java.lang.reflect.InvocationTargetException;
 public class Tournament {
 
     private static final Logger log = LogManager.getLogger(Tournament.class);
-    private static final String INPUT_PATH2020 = "./src/main/java/gametheory/assignment2/students2020";
-    private static final String INPUT_PATH2021 = "./src/main/java/gametheory/assignment2/students2021";
-    private static final String OUTPUT_PATH2020 = "./outputs/2020/grades.csv";
-    private static final String OUTPUT_PATH2021 = "./outputs/2021/grades.csv";
+    private static final String PARTICIPANTS_TYPE = "20s";
+    private static final String INPUT_PATH = "./src/main/java/gametheory/assignment2/students" + PARTICIPANTS_TYPE;
+    private static final String OUTPUT_PATH = "./outputs/" + PARTICIPANTS_TYPE + "/grades.csv";
     private static final int ROUNDS = 100;
 
     /**
@@ -27,7 +26,7 @@ public class Tournament {
     public static void main(String[] args) {
         String[] studentClasses;
         Tournament tournament = new Tournament();
-        studentClasses = tournament.getAllStudents(INPUT_PATH2020);
+        studentClasses = tournament.getAllStudents(INPUT_PATH);
         tournament.runTournament(studentClasses);
     }
 
@@ -94,7 +93,8 @@ public class Tournament {
                 log.info("File {}", listOfFile.getName());
                 if ((!listOfFile.getName().equals("Tournament.java")) &&
                         (!listOfFile.getName().equals("Player.java")) &&
-                        (!listOfFile.getName().equals(".DS_Store"))) {
+                        (!listOfFile.getName().equals(".DS_Store"))
+                ) {
                     studentFiles[studentNo++] = shortenName(listOfFile.getName());
                 }
             } else if (listOfFile.isDirectory()) {
@@ -278,8 +278,8 @@ public class Tournament {
         // generate players
         try {
             for (int playerNo = 0; playerNo < classes.length; playerNo++) {
-                Class<?> studentClass = Class.forName("gametheory.assignment2.students2020." +
-                        classes[playerNo]);
+                Class<?> studentClass = Class.forName("gametheory.assignment2.students" +
+                        PARTICIPANTS_TYPE + "." + classes[playerNo]);
                 Object studentObject = studentClass.getDeclaredConstructor().newInstance();
                 players[playerNo] = (Player) studentObject;
             }
@@ -316,7 +316,7 @@ public class Tournament {
      * @param scores array with all scores
      */
     private void generateGradesFile(String[] emails, double[] scores) {
-        try (FileWriter csvWriter = new FileWriter(OUTPUT_PATH2020)) {
+        try (FileWriter csvWriter = new FileWriter(OUTPUT_PATH)) {
             csvWriter.flush();
             csvWriter.append("#");
             csvWriter.append(",");

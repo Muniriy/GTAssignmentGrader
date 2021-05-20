@@ -1,13 +1,0 @@
-
-4
-java:S2129)"Remove this "Long" constructor(ÒÛÑ‡
-D
-java:S2140")Use "java.util.Random.nextInt()" instead.(÷œ¤‹ıÿÿÿÿ
-B
-java:S1874)",Remove this use of "Long"; it is deprecated.(ÒÛÑ‡
-3
-java:S2119o"Save and re-use this "Random".(¼İÅf
-J
-java:S2864""4Iterate over the "entrySet" instead of the "keySet".(Ó¾É
-m
-java:S3776"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(Ê˜™ùıÿÿÿÿ

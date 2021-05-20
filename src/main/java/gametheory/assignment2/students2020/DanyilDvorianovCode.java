@@ -23,7 +23,7 @@ public class DanyilDvorianovCode implements Player {
 
     @Override
     public int move(int opponentLastMove, int xA, int xB, int xC) {
-        var myMove = getPreviousField(opponentLastMove);
+        int myMove = getPreviousField(opponentLastMove);
         if(myMove == myLastMove){
             myMove = getPreviousField(myMove);
         }
@@ -39,7 +39,7 @@ public class DanyilDvorianovCode implements Player {
      * @return a number (1, 2 or 3) which specifes previous field to the given one
      */
     private int getPreviousField(int field){
-        var nextMove = field - 1;
+        int nextMove = field - 1;
         if(nextMove == -1){
             // first move
             nextMove = generator.nextInt(3) + 1;

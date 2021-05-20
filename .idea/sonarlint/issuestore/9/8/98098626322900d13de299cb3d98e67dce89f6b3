@@ -1,21 +1,0 @@
-
-E
-java:S1066."/Merge this if statement with the enclosing one.(ÙÊÓû
-J
-java:S1066/"/Merge this if statement with the enclosing one.(ªˆÐèúÿÿÿÿ
-8
-java:S1659"#Declare "lastB" on a separate line.(ó©ë_
-8
-java:S1659"#Declare "lastC" on a separate line.(ó©ë_
-m
-java:S3776,"RRefactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.(Ê˜™ùýÿÿÿÿ
-:
-java:S1659D"Declare "d" on a separate line.(¼÷ö¨ÿÿÿÿÿ
-M
-java:S3972E"7Move this "if" to a new line or add the missing "else".(Œô©¾
-M
-java:S3972E"7Move this "if" to a new line or add the missing "else".(Œô©¾
-L
-java:S3972G"7Move this "if" to a new line or add the missing "else".(ÞàÛ
-L
-java:S3972G"7Move this "if" to a new line or add the missing "else".(ÞàÛ

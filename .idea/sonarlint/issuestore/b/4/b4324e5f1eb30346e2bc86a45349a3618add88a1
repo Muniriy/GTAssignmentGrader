@@ -1,9 +1,0 @@
-
-M
-java:S2589&"7Remove this expression which always evaluates to "true"(·áï
-x
-java:S14884"]Immediately return this expression instead of assigning it to the temporary variable "email".(Ó±€€şÿÿÿÿ
-—
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¡ÀØ”
-m
-java:S3776"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(Ê˜™ùıÿÿÿÿ

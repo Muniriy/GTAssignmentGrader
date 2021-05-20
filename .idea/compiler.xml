@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="GTAssignment2" target="11" />
+      <module name="GTAssignment2" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>

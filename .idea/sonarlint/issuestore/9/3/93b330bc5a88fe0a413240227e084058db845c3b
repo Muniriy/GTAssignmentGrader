@@ -1,25 +1,0 @@
-
-l
-java:S1104"QMake score a static final constant or non-public and provide accessors if needed.(¿îŠÒûÿÿÿÿ
-@
-java:S1659"+Declare "maxSquareGain" on a separate line.(ğ¾Ó~
-t
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ò†›Äşÿÿÿÿ
->
-java:S4274*"(Replace this assert with a proper check.(ñ«ä…
->
-java:S4274+"(Replace this assert with a proper check.(©¯ú¸
-C
-java:S4274,"(Replace this assert with a proper check.(×¥¤‹øÿÿÿÿ
-/
-java:S2178+"Correct this "&" to "&&".(©¯ú¸
-4
-java:S2178,"Correct this "&" to "&&".(×¥¤‹øÿÿÿÿ
-/
-java:S2178U"Correct this "&" to "&&".(É¤¬Ç
-4
-java:S2178W"Correct this "&" to "&&".(çÇ¶°øÿÿÿÿ
-4
-java:S2119^"Save and re-use this "Random".(¡Å”¦
-4
-java:S2178b"Correct this "&" to "&&".(îİ‡ÿÿÿÿÿ

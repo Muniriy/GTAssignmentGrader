@@ -17,7 +17,7 @@ public class DariaVaskovskayaCode implements Player {
     }
 
     public DariaVaskovskayaCode clone() {
-        var player = new DariaVaskovskayaCode();
+        DariaVaskovskayaCode player = new DariaVaskovskayaCode();
         player.strategy = this.strategy;
         return player;
     }
@@ -127,7 +127,7 @@ public class DariaVaskovskayaCode implements Player {
      */
     private int copyLastStrategy(int opponentLastMove, int xA, int xB, int xC) {
 
-        var currentValues = new int[]{xA, xB, xC};
+        int[] currentValues = new int[]{xA, xB, xC};
         if (prevFieldValues[this.getMaxIndex(prevFieldValues)] == prevFieldValues[opponentLastMove-1]) {
             this.prevFieldValues = new int[]{xA, xB, xC};
             return getMaxIndex(currentValues) + 1;

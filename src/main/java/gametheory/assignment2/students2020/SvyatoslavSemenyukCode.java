@@ -34,32 +34,28 @@ public class SvyatoslavSemenyukCode implements Player {
 
     private static ArrayList<Integer>[] SeparateFields(int[] x)
         {
-        var l = x.length;
-        ArrayList<Integer> best = new ArrayList<>(3);
+        int l = x.length;
+            ArrayList<Integer> best = new ArrayList<>(3);
         ArrayList<Integer> norm = new ArrayList<>(3);
         ArrayList<Integer> worst = new ArrayList<>(3);
-        // if all values are equal, fill only best lists
-        if (x[1] == x[2] && x[2] == x[3])
-            {
-            for (int i = 1; i < l; i++)
-                {
-                best.add(i);
+            // if all values are equal, fill only best lists
+            if (x[1] == x[2] && x[2] == x[3]) {
+                for (int i = 1; i < l; i++) {
+                    best.add(i);
                 }
-            return new ArrayList[] {worst, norm, best};
+                return new ArrayList[]{worst, norm, best};
             }
-        // get min and max
-        var max = Integer.MIN_VALUE;
-        var min = Integer.MAX_VALUE;
-        for (int i = 1; i < l; i++)
-            {
-            if (x[i] > max) max = x[i];
-            if (x[i] < min) min = x[i];
-            // not else if since x[i] can satisfy both conditions
+            // get min and max
+            int max = Integer.MIN_VALUE;
+            int min = Integer.MAX_VALUE;
+            for (int i = 1; i < l; i++) {
+                if (x[i] > max) max = x[i];
+                if (x[i] < min) min = x[i];
+                // not else if since x[i] can satisfy both conditions
             }
-        // add indexes to respected list
-        for (int i = 1; i < l; i++)
-            {
-            if (x[i] == max) best.add(i);
+            // add indexes to respected list
+            for (int i = 1; i < l; i++) {
+                if (x[i] == max) best.add(i);
             else if (x[i] == min) worst.add(i);
             else norm.add(i);
             }
@@ -75,7 +71,7 @@ public class SvyatoslavSemenyukCode implements Player {
 
         for (int i = start; i > end; i--)
             {
-            var move = MyMoves.get(i);
+                int move = MyMoves.get(i);
             // Agent made best move - return false
             if (BestX.get(i).contains(move)) return false;
             }
@@ -100,8 +96,8 @@ public class SvyatoslavSemenyukCode implements Player {
         // Determine if foe were selecting fields with best x last FoeMovesToCheck turns
         boolean do_best = CheckLastMoves();
 
-        int[] x = {0, xA, xB, xC};
-        var lists = SeparateFields(x);
+            int[] x = {0, xA, xB, xC};
+            ArrayList<Integer>[] lists = SeparateFields(x);
         // remember worst and best fields have the same values inside their groups
         // if norm is not empty then worst, norm and best have 1 value
         ArrayList<Integer> worst = lists[0], norm = lists[1], best = lists[2];
@@ -109,7 +105,7 @@ public class SvyatoslavSemenyukCode implements Player {
         X.add(x);
         BestX.add(best);
 
-        var norm_is_empty = norm.isEmpty();
+            boolean norm_is_empty = norm.isEmpty();
 
         // go to a field with the best x if one of conditions is true
         // 1. do_best is true
