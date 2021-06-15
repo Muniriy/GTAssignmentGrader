@@ -1,8 +1,6 @@
 
 M
 outputs/2020/grades_final.csv,3/8/38eee6324c0327d0d7415b8bd1aaff99a90362bd
-G
-outputs/2020/grades.csv,f/c/fca21f65d672f4fa988caf0e1cdd0d9c5c8079da
 `
 0src/main/java/gametheory/assignment2/Player.java,9/a/9a3e4a4c44bc3fdbccef1c03f9f76ada21c6be63
 7
