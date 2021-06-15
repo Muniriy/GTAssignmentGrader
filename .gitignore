@@ -100,3 +100,10 @@ fabric.properties
 /.idea
 /**/*.iml
 /**/*.dat# Created by .ignore support plugin (hsz.mobi)
+/src/main/java/gametheory/assignment2/students20s/
+/src/main/java/gametheory/assignment2/students2020/
+/src/main/java/gametheory/assignment2/students2021/
+/excluded/
+/outputs/20s/
+/outputs/2020/
+/outputs/2021/

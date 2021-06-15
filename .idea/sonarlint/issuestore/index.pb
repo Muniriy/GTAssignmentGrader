@@ -3,19 +3,8 @@ M
 outputs/2020/grades_final.csv,3/8/38eee6324c0327d0d7415b8bd1aaff99a90362bd
 G
 outputs/2020/grades.csv,f/c/fca21f65d672f4fa988caf0e1cdd0d9c5c8079da
-S
-#excluded2020/DanilGinzburgCode.java,0/f/0fb9342f318e2c4143da71c4e1dd8fea926a7763
-X
-(excluded2020/ElenaLukyanchikovaCode.java,4/e/4e1667cf8524416c79e3b007a2d456500114a3f0
-Q
-!excluded2020/IvanKomarovCode.java,e/5/e5d2ef4917fa3287c8a9f9abb7734ca3a4b1265c
-S
-#excluded2020/VasilyVarenovCode.java,b/1/b1a4c2945e8e4e61b487797fcbb85cb4737b0b89
 `
 0src/main/java/gametheory/assignment2/Player.java,9/a/9a3e4a4c44bc3fdbccef1c03f9f76ada21c6be63
-:
-
-.gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
 7
 pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
 x
@@ -110,3 +99,7 @@ t
 Dsrc/main/java/gametheory/assignment2/students20s/InsafSafinCode.java,1/d/1dbb85c8e59b3b92e18f4d79102dbdfc8912cffd
 9
 	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+F
+outputs/20s/grades.csv,6/4/64f2309ceba75b81ec4e1a82a9ffd8b685ec61b1
+d
+4src/main/java/gametheory/assignment2/Tournament.java,e/f/efa596d281cb6d5be53515f753905cbf570f5bad

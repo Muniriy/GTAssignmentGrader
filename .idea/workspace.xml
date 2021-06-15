@@ -5,114 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="762ea13f-9121-4618-91c7-76e54aff60a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/excluded2021/EgorOsokinCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excluded2021/MaximKorsunovCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excluded2021/VyacheslavPavlovCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excluded2021/plagiarized/AlexanderTrushinCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excluded2021/plagiarized/NataliyaTupikinaCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputs/2021/grades.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputs/2021/gradesOld.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputs/2021/gradesOld2.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputs/20s/grades.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/AbdelrahmanAbounegmCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/AidarGarikhanovCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/AlecseyMurashkoCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/AlenaZavideevaCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/AlexanderKrivonosovCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/AlexandrGrichshenkoCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/AlfiyaMusabekovaCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/AlinaBogdanovaCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/AlinaPaukovaCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/AlisaMartyanovaCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/AllaChepurovaCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/AminaMiftakhovaCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/AndreyFeygelmanCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/AnnaBoroninaCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/AnnaGorbCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/AnnaStartsevaCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/AntonBrisilinCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/ArtemBakhanovCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/ArtemYuloskovCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/AsanaliFazylzhanCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/AyazBaykovCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/BekzhanTalgatCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/DanatAyazbayevCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/DanielAtongeCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/DaniilFrontsCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/DaniilManakovskiyCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/DanilUsmanovCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/DaniyarGalimzhanovCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/DinarZayahovCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/DmitryPodpryatovCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/DmitryUssoltsevCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/EvgeniyTrantsevCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/FarkhodKhakimiyonCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/GeorgiiStepanovCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/GrigoriyDolgovCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/IdelIshbaevCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/IlyaMakarenkoCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/InsafSafinCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/IskanderSalimzhanovCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/IuriiZarubinCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/IvanAbramovCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/JameelMukhutdinovCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/KamilKamalievCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/KamilKhairullinCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/KamilRizatdinovCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/KazybekAskarbekCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/KerimKochekovCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/KhaledIsmaeelCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/KirillFedoseevCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/LeonidTyurinCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/LevChelyadinovCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/LevSvalovCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/MagomedMagomedovCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/MarinaIvanovaCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/MarinaNikolaevaCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/MarinaSmirnovaCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/MarkoPezerCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/MatveyPlevakoCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/MatveyPoltarykhinCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/MaxKureykinCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/MaximEvgrafovCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/MaximStepanovCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/MihailKuskovCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/MihailOlokinCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/MikhailGudkovCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/MohamadZiadAlkabakibiCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/NadezhdaBadyukGorobivskayaCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/NataliaMatrosovaCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/NikitaAleshchenkoCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/NikitaDubinaCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/NikitaTihonovCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/OlgaChernukhinaCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/OziomaOkonichaCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/PavelTishkinCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/PolinaTurischevaCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/RavidaSaitovaCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/RenatValeevCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/RufinaSirgalinaCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/RufinaTalalaevaCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/RuslanIsrafilovCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/RuslanMihaylovCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/RuslanMuravevCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/RuslanSahibgareevCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/SergeyMakarovCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/SergeySemushinCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/ShamilHastievCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/TagirShigapovCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/TemurbekKhujaevCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/TrangNguyenCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/TymurLysenkoCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/UtkarshKalraCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/VadimStepanovCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/ValentinSergeevCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/VitaliyKorbashovCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/VladislavKalmykovCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/VladislavKantaevCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/YuliaChukanovaCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/YusufMesbahCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students2021/ZhandosKipshakbayevCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -152,17 +46,17 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/excluded2020/plagiarized" />
-      <recent name="$PROJECT_DIR$/excluded2021/plagiarized" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/src/main/java/gametheory/assignment2" />
-      <recent name="$PROJECT_DIR$/outputs/2020" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/gametheory/assignment2/students20s" />
       <recent name="$PROJECT_DIR$/src/main/doc" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/excluded" />
+      <recent name="$PROJECT_DIR$/excluded2020/plagiarized" />
+      <recent name="$PROJECT_DIR$/excluded2021/plagiarized" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/main/java/gametheory/assignment2" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Tournament">
@@ -202,13 +96,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -274,7 +170,8 @@
       <workItem from="1619896020093" duration="87000" />
       <workItem from="1620200062028" duration="240000" />
       <workItem from="1621516096186" duration="106000" />
-      <workItem from="1621516260787" duration="1638000" />
+      <workItem from="1621516260787" duration="2337000" />
+      <workItem from="1623749752673" duration="414000" />
     </task>
     <task id="LOCAL-00001" summary="Code was completely refactored, was mode more flexible because of added Reflection for getting player objects. &#10;Code is prepared for 2021 contest">
       <created>1614613779278</created>
@@ -311,7 +208,21 @@
       <option name="project" value="LOCAL" />
       <updated>1621517543612</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added missing student files">
+      <created>1621518326874</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1621518326874</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Made refactoring for excluded files">
+      <created>1621518494005</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1621518494005</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -323,7 +234,9 @@
     <MESSAGE value="Made refactoring" />
     <MESSAGE value="Added assignmnet document" />
     <MESSAGE value="Combined 2020 and 2021 student files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Combined 2020 and 2021 student files" />
+    <MESSAGE value="Added missing student files" />
+    <MESSAGE value="Made refactoring for excluded files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Made refactoring for excluded files" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
